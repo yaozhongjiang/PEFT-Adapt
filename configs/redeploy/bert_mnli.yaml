@@ -1,0 +1,140 @@
+experiment:
+  name: bert_mnli_redeploy_absolute
+  output_root: artifact
+  seed: 7
+model:
+  model_id: google-bert/bert-base-uncased
+  revision: main
+  tokenizer_id: google-bert/bert-base-uncased
+  task_type: sequence_classification
+  dtype: float32
+  local_files_only: false
+data:
+  dataset_name: glue
+  dataset_config: mnli
+  task_name: mnli
+  train_split: train
+  eval_split: validation_matched
+  probe_split: validation_matched
+  text_fields: [premise, hypothesis]
+  label_field: label
+  num_labels: 3
+  max_length: 256
+  max_probe_samples: 2000
+  max_eval_samples: 2000
+inputs:
+  victim_grid_json: artifact/models/bert_mnli_openworld_victims/victim_grid.json
+  victim_query_jsonl: artifact/raw/bert_mnli_openworld_victims_queries.jsonl
+  victim_structure: lora_r64
+seeds:
+  victim: [44, 55, 66]
+  query_probe_seed: 7
+budget:
+  victim_queries: 2000
+training:
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  train_batch_size: 16
+  epochs: 3
+  max_steps: -1
+  gradient_accumulation_steps: 1
+  temperature: 2.0
+  distillation_alpha: 1.0
+  hard_label_weight: 0.1
+  fp16: true
+structure_catalog:
+  lora_r8:
+    family: lora
+    rank: 8
+    alpha: 16
+    target_modules: [query, value]
+    modules_to_save: [classifier]
+  lora_r64:
+    family: lora
+    rank: 64
+    alpha: 128
+    target_modules: [query, value]
+    modules_to_save: [classifier]
+  lora_r256:
+    family: lora
+    rank: 256
+    alpha: 512
+    target_modules: [query, value]
+    modules_to_save: [classifier]
+methods:
+  - name: posterior_bounded_peft
+    kind: posterior_peft
+    structure_from: artifact/reports/bert_mnli_hybrid_open_set_service_predictions.json
+  - name: oracle_structure_peft
+    kind: oracle_peft
+    structure:
+      family: lora
+      rank: 64
+      alpha: 128
+      target_modules: [query, value]
+      modules_to_save: [classifier]
+  - name: wrong_structure_peft
+    kind: wrong_peft
+    structure:
+      family: lora
+      rank: 8
+      alpha: 16
+      target_modules: [query, value]
+      modules_to_save: [classifier]
+  - name: plain_distilled_student
+    kind: plain_student
+    model:
+      model_id: distilbert/distilbert-base-uncased
+      tokenizer_id: distilbert/distilbert-base-uncased
+      task_type: sequence_classification
+      dtype: float32
+      local_files_only: false
+  - name: parameter_matched_student
+    kind: parameter_matched_student
+  - name: compute_matched_student
+    kind: compute_matched_student
+  - name: distill_to_peft_conversion
+    kind: distill_to_peft
+    source_method: plain_distilled_student
+    additional_flops: 0
+    structure:
+      family: lora
+      rank: 64
+      alpha: 128
+      target_modules: [query, value]
+      modules_to_save: [classifier]
+composition:
+  task_b:
+    dataset_name: stanfordnlp/snli
+    dataset_config: plain_text
+    task_name: snli
+    train_split: train
+    eval_split: validation
+    text_fields: [premise, hypothesis]
+    label_field: label
+    num_labels: 3
+    max_length: 256
+    max_train_samples: 5000
+    max_eval_samples: 2000
+  task_b_structure:
+    family: lora
+    rank: 16
+    alpha: 32
+    target_modules: [query, value]
+    modules_to_save: [classifier]
+  weights: [0.5, 0.5]
+  combination_type: linear
+  training:
+    learning_rate: 0.0002
+    train_batch_size: 16
+    epochs: 2
+    hard_label_weight: 1.0
+    distillation_alpha: 0.0
+  student_training:
+    learning_rate: 0.0002
+    train_batch_size: 16
+    epochs: 2
+    hard_label_weight: 1.0
+    distillation_alpha: 0.0
+bootstrap:
+  n: 2000

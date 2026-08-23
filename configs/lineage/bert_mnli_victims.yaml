@@ -1,0 +1,55 @@
+experiment:
+  name: bert_mnli_lineage_victims
+  output_root: artifact
+  seed: 7
+  local_only: false
+model:
+  model_id: google-bert/bert-base-uncased
+  revision: main
+  tokenizer_id: google-bert/bert-base-uncased
+  task_type: sequence_classification
+  dtype: float32
+  local_files_only: false
+data:
+  dataset_name: glue
+  dataset_config: mnli
+  task_name: mnli
+  train_split: train
+  eval_split: validation_matched
+  probe_split: validation_matched
+  text_fields: [premise, hypothesis]
+  label_field: label
+  num_labels: 3
+  max_length: 256
+  max_train_samples: 10000
+  max_eval_samples: 2000
+  max_probe_samples: 1500
+  probe_selection_seed: 2026
+seeds:
+  # 32 independent adapter-training seeds. Existing 101-110 are skipped on disk.
+  victim: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132]
+  probe: [7, 42, 123]
+training:
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  train_batch_size: 16
+  eval_batch_size: 32
+  gradient_accumulation_steps: 1
+  epochs: 3
+  warmup_ratio: 0.06
+  fp16: true
+  eval_strategy: epoch
+  save_strategy: "no"
+structures:
+  - name: lora_r64
+    family: lora
+    rank: 64
+    alpha: 128
+    target_modules: [query, value]
+    modules_to_save: [classifier]
+    known: true
+interface:
+  mode: full_logits
+inference:
+  batch_size: 32
+  disjoint_probe_views: true

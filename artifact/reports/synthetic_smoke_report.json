@@ -1,0 +1,160 @@
+{
+  "config": {
+    "experiment": {
+      "config_path": "/mnt/data/VectorHijack_SR_experiments_release/configs/smoke/synthetic.yaml",
+      "config_sha256": "0bf50b4c91829f061c9138972db320279a7b30bb04d4ad12dfd938b4330e5058",
+      "local_only": true,
+      "name": "synthetic_smoke",
+      "output_root": "artifact",
+      "seed": 7
+    },
+    "features": {
+      "signature_batch_size": 40
+    },
+    "fingerprint": {
+      "calibration_victim_seeds": [
+        11,
+        22
+      ],
+      "n_bootstrap": 200,
+      "test_victim_seeds": [
+        55,
+        66
+      ],
+      "validation_victim_seeds": [
+        33,
+        44
+      ]
+    },
+    "splits": {
+      "test_victim_seeds": [
+        44,
+        55,
+        66
+      ],
+      "threshold_victim_seeds": [
+        33
+      ],
+      "train_victim_seeds": [
+        11,
+        22,
+        33
+      ]
+    },
+    "synthetic": {
+      "known_structures": [
+        "lora_r8",
+        "lora_r64",
+        "lora_r256"
+      ],
+      "num_labels": 5,
+      "probe_seeds": [
+        7,
+        42,
+        123
+      ],
+      "probes_per_service": 120,
+      "unknown_structures": [
+        "dora_r64",
+        "ia3",
+        "lora_r32"
+      ],
+      "victim_seeds": [
+        11,
+        22,
+        33,
+        44,
+        55,
+        66
+      ]
+    }
+  },
+  "counts": {
+    "known_test": 27,
+    "raw_rows": 12960,
+    "service_views": 108,
+    "signature_batches": 324,
+    "unknown_test": 27
+  },
+  "environment": {
+    "hostname": "f3bd1f7ea272",
+    "machine": "x86_64",
+    "packages": {
+      "accelerate": "1.14.0",
+      "bitsandbytes": null,
+      "datasets": "4.8.5",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "peft": "0.19.1",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "torch": "2.10.0+cpu",
+      "transformers": "5.14.1"
+    },
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "processor": "",
+    "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+    "torch": {
+      "cuda_available": false,
+      "cuda_version": null,
+      "cudnn_version": null,
+      "gpus": [],
+      "version": "2.10.0+cpu"
+    }
+  },
+  "experiment": {
+    "config_sha256": "0bf50b4c91829f061c9138972db320279a7b30bb04d4ad12dfd938b4330e5058",
+    "name": "synthetic_smoke"
+  },
+  "fingerprint_metrics": {
+    "auc_vs_different_structure": 1.0,
+    "auc_vs_same_family_rank_new_checkpoint": 1.0,
+    "bootstrap_services": 6,
+    "bootstrap_unit": "service_checkpoint",
+    "calibration_services": 6,
+    "eer": 0.0,
+    "eer_threshold": 0.9899545154859891,
+    "locked_fmr_different_structure": 0.0,
+    "locked_fmr_same_family_rank_new_checkpoint": 0.0,
+    "locked_threshold": 0.9931561500747524,
+    "macro_top1": 1.0,
+    "mean_score_different_structure": 0.0673343828743136,
+    "mean_score_positive_exact_lineage": 0.996306856559294,
+    "mean_score_same_family_rank_new_checkpoint": 0.3630443327879464,
+    "oracle_test_fmr_at_target_tmr_diagnostic": 0.0,
+    "oracle_test_threshold_diagnostic": 0.9899545154859891,
+    "pair_auc": 1.0,
+    "pair_auc_ci_lower": 0.9999999999999999,
+    "pair_auc_ci_upper": 1.0,
+    "target_tmr": 0.95,
+    "test_fmr_at_locked_threshold": 0.0,
+    "test_services": 6,
+    "test_tmr_at_locked_threshold": 0.9444444444444444,
+    "threshold_selected_on_validation_services": true,
+    "validation_fmr_at_target_tmr": 0.0,
+    "validation_services": 6
+  },
+  "git_commit": null,
+  "inference_unit": "service_probe_view",
+  "mode": "offline_synthetic",
+  "open_set_metrics": {
+    "aupr": 0.39369108576554473,
+    "auroc": 0.2770919067215364,
+    "false_posterior_concentration_accepted": 0.7037037037037037,
+    "false_posterior_concentration_among_accepted": 0.76,
+    "false_posterior_concentration_raw": 0.7777777777777778,
+    "known_accept_accuracy": 1.0,
+    "known_closed_accuracy": 1.0,
+    "known_reject_rate": 0.3333333333333333,
+    "locked_threshold": 0.9203695568415909,
+    "oscr": 0.9931412894375857,
+    "threshold_at_target_fpr": 0.9345325158710817,
+    "tpr_at_target_fpr": 0.0,
+    "unknown_false_accept_rate_locked": 0.9259259259259259,
+    "unknown_recall_locked": 0.07407407407407407
+  },
+  "raw_jsonl": "artifact/raw/synthetic_queries.jsonl",
+  "run_id": "synthetic-smoke",
+  "service_view_csv": "artifact/summaries/synthetic_service_views.csv",
+  "signature_batch_csv": "artifact/summaries/synthetic_signature_batches.csv"
+}

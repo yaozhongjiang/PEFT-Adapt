@@ -1,0 +1,18 @@
+experiment:
+  name: bert_mnli_exact_lineage
+  output_root: artifact
+  seed: 7
+inputs:
+  raw_jsonl:
+    - artifact/raw/bert_mnli_lineage_victims_queries.jsonl
+features:
+  signature_batch_size: 100
+splits:
+  # Locked 5-service protocol retained for continuity.
+  calibration_victim_seeds: [101, 102, 103]
+  validation_victim_seeds: [104, 105]
+  test_victim_seeds: [106, 107, 108, 109, 110]
+fingerprint:
+  n_bootstrap: 2000
+  target_tmr: 0.95
+  primary_structure: lora_r64

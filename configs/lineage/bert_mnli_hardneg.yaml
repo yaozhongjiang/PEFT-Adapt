@@ -1,0 +1,19 @@
+experiment:
+  name: bert_mnli_lineage_hardneg
+  output_root: artifact
+  seed: 7
+inputs:
+  # Open-world grid supplies r8/r64/r256, DoRA, LoRA+head, and module variants.
+  # Lineage grid is excluded here to avoid seed-110 duplicate-weight collisions.
+  raw_jsonl:
+    - artifact/raw/bert_mnli_openworld_victims_queries.jsonl
+features:
+  signature_batch_size: 100
+splits:
+  calibration_victim_seeds: [11, 22, 33]
+  validation_victim_seeds: [44, 55]
+  test_victim_seeds: [66, 77, 88, 99, 110]
+fingerprint:
+  n_bootstrap: 2000
+  target_tmr: 0.95
+  primary_structure: lora_r64

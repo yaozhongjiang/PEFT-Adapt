@@ -1,0 +1,23 @@
+experiment:
+  name: synthetic_smoke
+  output_root: artifact
+  seed: 7
+  local_only: true
+synthetic:
+  known_structures: [lora_r8, lora_r64, lora_r256]
+  unknown_structures: [dora_r64, ia3, lora_r32]
+  victim_seeds: [11, 22, 33, 44, 55, 66]
+  probe_seeds: [7, 42, 123]
+  probes_per_service: 120
+  num_labels: 5
+features:
+  signature_batch_size: 40
+splits:
+  train_victim_seeds: [11, 22, 33]
+  threshold_victim_seeds: [33]
+  test_victim_seeds: [44, 55, 66]
+fingerprint:
+  calibration_victim_seeds: [11, 22]
+  validation_victim_seeds: [33, 44]
+  test_victim_seeds: [55, 66]
+  n_bootstrap: 200

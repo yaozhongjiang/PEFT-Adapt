@@ -1,0 +1,17 @@
+{
+  "root": "artifact",
+  "profile": "smoke",
+  "expected_tokens": [
+    "synthetic"
+  ],
+  "raw_files": 1,
+  "raw_rows": 12960,
+  "duplicate_raw_identities": 0,
+  "summary_files": 3,
+  "summary_rows": 585,
+  "manifest_files": 1,
+  "report_files": 4,
+  "warnings": [],
+  "errors": [],
+  "passed": true
+}

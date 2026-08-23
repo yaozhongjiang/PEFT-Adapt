@@ -1,0 +1,82 @@
+experiment:
+  name: llama31_mechanism_victims
+  output_root: artifact
+  seed: 7
+model:
+  model_id: meta-llama/Llama-3.1-8B-Instruct
+  revision: main
+  tokenizer_id: meta-llama/Llama-3.1-8B-Instruct
+  task_type: causal_lm
+  dtype: bfloat16
+  device_map: auto
+  local_files_only: false
+  trust_remote_code: false
+data:
+  dataset_name: glue
+  dataset_config: mnli
+  task_name: mnli
+  train_split: train
+  eval_split: validation_matched
+  probe_split: validation_matched
+  text_fields: [premise, hypothesis]
+  label_field: label
+  label_words: [entailment, neutral, contradiction]
+  num_labels: 3
+  max_length: 512
+  max_train_samples: 12000
+  max_eval_samples: 1000
+  max_probe_samples: 600
+  use_chat_template: true
+  probe_selection_seed: 2026
+seeds:
+  victim: [11, 22, 33]
+  probe: [7, 42, 123]
+structures:
+  - name: lora_r8
+    family: lora
+    known: true
+    rank: 8
+    alpha: 16
+    target_modules: [q_proj, v_proj]
+  - name: lora_r64
+    family: lora
+    known: true
+    rank: 64
+    alpha: 128
+    target_modules: [q_proj, v_proj]
+  - name: lora_r256
+    family: lora
+    known: true
+    rank: 256
+    alpha: 512
+    target_modules: [q_proj, v_proj]
+  - name: top_layer_ft
+    family: top_layer_ft
+    known: true
+    # Llama-3.1-8B has 32 decoder blocks. These substrings intentionally
+    # target only the final block, final norm, and LM head.
+    target_patterns: [model.layers.31, model.norm, lm_head]
+training:
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  train_batch_size: 1
+  eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 1
+  max_steps: -1
+  warmup_ratio: 0.03
+  logging_steps: 10
+  save_strategy: 'no'
+  eval_strategy: 'no'
+  bf16: true
+  fp16: false
+  gradient_checkpointing: true
+  data_collator: default
+inference:
+  device: cuda
+  disjoint_probe_views: true
+llama:
+  max_new_tokens: 16
+  label_words: [entailment, neutral, contradiction]
+# This grid exists only to support the trajectory-alignment mechanism study.
+# It must not be described as evidence for general free-running API leakage.

@@ -1,0 +1,18 @@
+experiment:
+  name: deberta_mnli_exact_lineage
+  output_root: artifact
+  seed: 7
+inputs:
+  raw_jsonl:
+    - artifact/raw/deberta_mnli_lineage_victims_queries.jsonl
+features:
+  signature_batch_size: 100
+splits:
+  calibration_victim_seeds: [301, 302, 303, 304]
+  validation_victim_seeds: [305, 306]
+  test_victim_seeds: [307, 308, 309, 310, 311, 312, 313, 314, 315, 316]
+fingerprint:
+  n_bootstrap: 2000
+  target_tmr: 0.95
+  primary_structure: lora_r64
+  structures: [lora_r64]

@@ -1,0 +1,38 @@
+experiment:
+  name: llama31_trajectory_alignment_mechanism
+  output_root: artifact
+  seed: 7
+model:
+  model_id: meta-llama/Llama-3.1-8B-Instruct
+  revision: main
+  tokenizer_id: meta-llama/Llama-3.1-8B-Instruct
+  task_type: causal_lm
+  dtype: bfloat16
+  device_map: auto
+  local_files_only: false
+  trust_remote_code: false
+data:
+  dataset_name: glue
+  dataset_config: mnli
+  task_name: mnli
+  eval_split: validation_matched
+  probe_split: validation_matched
+  text_fields: [premise, hypothesis]
+  label_field: label
+  num_labels: 3
+  max_length: 1024
+  max_probe_samples: 200
+inputs:
+  victim_grid_json: artifact/models/llama31_mechanism_victims/victim_grid.json
+seeds:
+  probe: [7, 42, 123]
+inference:
+  device: cuda
+llama:
+  max_new_tokens: 16
+  label_words: [entailment, neutral, contradiction]
+  # Llama-3.1 BPE: space-prefixed answer tokens matching victim training
+  # (" "+label). entailment is multi-token; use its first answer subtoken.
+  label_token_ids: [87092, 21277, 50859]
+# This experiment is intentionally labeled as a mechanism diagnostic. Its
+# results must not be generalized to unconstrained free-running APIs.

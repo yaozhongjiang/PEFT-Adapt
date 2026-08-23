@@ -1,0 +1,75 @@
+experiment:
+  name: bert_mnli_real_base_mismatch
+  output_root: artifact
+  seed: 7
+model:
+  model_id: google-bert/bert-base-uncased
+  revision: main
+  tokenizer_id: google-bert/bert-base-uncased
+  task_type: sequence_classification
+  dtype: float32
+  local_files_only: false
+data:
+  dataset_name: glue
+  dataset_config: mnli
+  task_name: mnli
+  train_split: train
+  eval_split: validation_matched
+  probe_split: validation_matched
+  continued_pretrain_split: train
+  text_fields: [premise, hypothesis]
+  label_field: label
+  num_labels: 3
+  max_length: 256
+  max_probe_samples: 1000
+  probe_selection_seed: 2026
+seeds:
+  probe: [7, 42, 123]
+splits:
+  detector_fit_victim_seeds: [11, 22]
+  threshold_victim_seeds: [33]
+  calibration_victim_seeds: [11, 22, 33]
+  test_victim_seeds: [44, 55, 66]
+features:
+  signature_batch_size: 100
+inputs:
+  victim_grid_json: artifact/models/bert_mnli_openworld_victims/victim_grid.json
+  victim_structure: lora_r64
+  structural_calibration_jsonl: artifact/raw/bert_mnli_openworld_victims_queries.jsonl
+interface:
+  mode: full_logits
+inference:
+  batch_size: 32
+  disjoint_probe_views: true
+base_mismatch:
+  target_matched_fpr: 0.05
+  conditions:
+    - name: exact_match
+      kind: matched
+    - name: fp16_local_base
+      kind: model_config
+      dtype: float16
+      optional: true
+    - name: dynamic_int8_local_base
+      kind: dynamic_int8
+    - name: bitsandbytes_int4_local_base
+      kind: model_config
+      quantization: int4
+      optional: true
+    - name: alternate_tokenizer_cased
+      kind: model_config
+      tokenizer_id: google-bert/bert-base-cased
+      tokenizer_override:
+        tokenizer_id: google-bert/bert-base-cased
+    - name: local_revision_25_mlm_steps
+      kind: continued_pretraining
+      seed: 991
+      max_steps: 25
+      max_samples: 2000
+      learning_rate: 0.00005
+    - name: local_revision_100_mlm_steps
+      kind: continued_pretraining
+      seed: 992
+      max_steps: 100
+      max_samples: 5000
+      learning_rate: 0.00005

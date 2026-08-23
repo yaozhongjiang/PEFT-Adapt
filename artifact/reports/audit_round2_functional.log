@@ -1,0 +1,186 @@
+[Round 2] unit, synthetic end-to-end, and offline HF/PEFT audit
+......                                                                   [100%]
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 457.14it/s]
+Map:   0%|          | 0/6 [00:00<?, ? examples/s]Map: 100%|██████████| 6/6 [00:00<00:00, 524.41 examples/s]
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 2802.48it/s]
+[RANK 0] Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+  0%|          | 0/1 [00:00<?, ?it/s]/opt/pyvenv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+                                     {'loss': '1.093', 'grad_norm': '0.7663', 'learning_rate': '0', 'epoch': '0.3333'}
+100%|██████████| 1/1 [00:00<00:00, 77.93it/s]                                             {'train_runtime': '0.0135', 'train_samples_per_second': '148.4', 'train_steps_per_second': '74.18', 'train_loss': '1.093', 'epoch': '0.3333'}
+100%|██████████| 1/1 [00:00<00:00, 75.10it/s]100%|██████████| 1/1 [00:00<00:00, 72.16it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 948.72it/s]
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 967.77it/s]
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 4763.22it/s]
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 4085.79it/s]
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 4260.43it/s]
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 4292.87it/s]
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 3405.57it/s]
+Loading weights:   0%|          | 0/25 [00:00<?, ?it/s]Loading weights: 100%|██████████| 25/25 [00:00<00:00, 3573.51it/s]
+{
+  "status": "passed",
+  "output": "artifact/cache/hf_tiny_integration"
+}
+verified artifact/cache/hf_tiny_integration/integration_report.json (status=passed)
+{
+  "run_id": "synthetic-smoke",
+  "experiment": {
+    "name": "synthetic_smoke",
+    "config_sha256": "0bf50b4c91829f061c9138972db320279a7b30bb04d4ad12dfd938b4330e5058"
+  },
+  "mode": "offline_synthetic",
+  "raw_jsonl": "artifact/raw/synthetic_queries.jsonl",
+  "signature_batch_csv": "artifact/summaries/synthetic_signature_batches.csv",
+  "service_view_csv": "artifact/summaries/synthetic_service_views.csv",
+  "inference_unit": "service_probe_view",
+  "counts": {
+    "raw_rows": 12960,
+    "signature_batches": 324,
+    "service_views": 108,
+    "known_test": 27,
+    "unknown_test": 27
+  },
+  "open_set_metrics": {
+    "auroc": 0.2770919067215364,
+    "aupr": 0.39369108576554473,
+    "tpr_at_target_fpr": 0.0,
+    "threshold_at_target_fpr": 0.9345325158710817,
+    "known_closed_accuracy": 1.0,
+    "known_accept_accuracy": 1.0,
+    "known_reject_rate": 0.3333333333333333,
+    "unknown_recall_locked": 0.07407407407407407,
+    "false_posterior_concentration_raw": 0.7777777777777778,
+    "false_posterior_concentration_accepted": 0.7037037037037037,
+    "false_posterior_concentration_among_accepted": 0.76,
+    "unknown_false_accept_rate_locked": 0.9259259259259259,
+    "oscr": 0.9931412894375857,
+    "locked_threshold": 0.9203695568415909
+  },
+  "fingerprint_metrics": {
+    "pair_auc": 1.0,
+    "macro_top1": 1.0,
+    "eer": 0.0,
+    "eer_threshold": 0.9899545154859891,
+    "locked_threshold": 0.9931561500747524,
+    "validation_fmr_at_target_tmr": 0.0,
+    "test_tmr_at_locked_threshold": 0.9444444444444444,
+    "test_fmr_at_locked_threshold": 0.0,
+    "target_tmr": 0.95,
+    "oracle_test_fmr_at_target_tmr_diagnostic": 0.0,
+    "oracle_test_threshold_diagnostic": 0.9899545154859891,
+    "threshold_selected_on_validation_services": true,
+    "calibration_services": 6,
+    "validation_services": 6,
+    "test_services": 6,
+    "auc_vs_different_structure": 1.0,
+    "mean_score_different_structure": 0.0673343828743136,
+    "locked_fmr_different_structure": 0.0,
+    "auc_vs_same_family_rank_new_checkpoint": 1.0,
+    "mean_score_same_family_rank_new_checkpoint": 0.3630443327879464,
+    "locked_fmr_same_family_rank_new_checkpoint": 0.0,
+    "mean_score_positive_exact_lineage": 0.996306856559294,
+    "pair_auc_ci_lower": 0.9999999999999999,
+    "pair_auc_ci_upper": 1.0,
+    "bootstrap_services": 6,
+    "bootstrap_unit": "service_checkpoint"
+  },
+  "config": {
+    "experiment": {
+      "name": "synthetic_smoke",
+      "output_root": "artifact",
+      "seed": 7,
+      "local_only": true,
+      "config_path": "/mnt/data/VectorHijack_SR_experiments_release/configs/smoke/synthetic.yaml",
+      "config_sha256": "0bf50b4c91829f061c9138972db320279a7b30bb04d4ad12dfd938b4330e5058"
+    },
+    "synthetic": {
+      "known_structures": [
+        "lora_r8",
+        "lora_r64",
+        "lora_r256"
+      ],
+      "unknown_structures": [
+        "dora_r64",
+        "ia3",
+        "lora_r32"
+      ],
+      "victim_seeds": [
+        11,
+        22,
+        33,
+        44,
+        55,
+        66
+      ],
+      "probe_seeds": [
+        7,
+        42,
+        123
+      ],
+      "probes_per_service": 120,
+      "num_labels": 5
+    },
+    "features": {
+      "signature_batch_size": 40
+    },
+    "splits": {
+      "train_victim_seeds": [
+        11,
+        22,
+        33
+      ],
+      "threshold_victim_seeds": [
+        33
+      ],
+      "test_victim_seeds": [
+        44,
+        55,
+        66
+      ]
+    },
+    "fingerprint": {
+      "calibration_victim_seeds": [
+        11,
+        22
+      ],
+      "validation_victim_seeds": [
+        33,
+        44
+      ],
+      "test_victim_seeds": [
+        55,
+        66
+      ],
+      "n_bootstrap": 200
+    }
+  },
+  "environment": {
+    "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "machine": "x86_64",
+    "processor": "",
+    "hostname": "f3bd1f7ea272",
+    "packages": {
+      "torch": "2.10.0+cpu",
+      "transformers": "5.14.1",
+      "datasets": "4.8.5",
+      "peft": "0.19.1",
+      "accelerate": "1.14.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "bitsandbytes": null
+    },
+    "torch": {
+      "version": "2.10.0+cpu",
+      "cuda_version": null,
+      "cudnn_version": null,
+      "cuda_available": false,
+      "gpus": []
+    }
+  },
+  "git_commit": null
+}
+verified artifact/reports/synthetic_smoke_report.json (run_id=synthetic-smoke)

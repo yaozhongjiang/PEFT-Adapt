@@ -1,0 +1,19 @@
+experiment:
+  name: vectorhijack_full_plan
+runs:
+  - command: train-victims
+    config: configs/open_set/bert_mnli_victims.yaml
+  - command: collect
+    config: configs/open_set/bert_mnli_victims.yaml
+  - command: open-set
+    config: configs/open_set/bert_mnli_detector.yaml
+  - command: base-mismatch
+    config: configs/base_mismatch/bert_mnli.yaml
+  - command: train-victims
+    config: configs/lineage/bert_mnli_victims.yaml
+  - command: collect
+    config: configs/lineage/bert_mnli_victims.yaml
+  - command: lineage
+    config: configs/lineage/bert_mnli.yaml
+  - command: redeploy
+    config: configs/redeploy/bert_mnli.yaml

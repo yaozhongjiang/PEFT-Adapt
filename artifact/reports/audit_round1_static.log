@@ -1,0 +1,20 @@
+[Round 1] static, configuration, and scientific-protocol audit
+All checks passed!
+{
+  "root": "/mnt/data/VectorHijack_SR_experiments_release",
+  "yaml_files": 12,
+  "checks": {
+    "plan_closure": true,
+    "seed_disjointness": true,
+    "open_set_unknown_grid": true,
+    "real_base_mismatch_conditions": true,
+    "exact_lineage_split": true,
+    "redeploy_baseline_closure": true,
+    "llama_claim_boundary": true,
+    "secret_and_endpoint_scan": true
+  },
+  "warnings": [],
+  "errors": [],
+  "passed": true
+}
+{'imported_modules': 23, 'modules': ['__main__', 'base_mismatch', 'bootstrap', 'cli', 'collect', 'config', 'drift', 'features', 'fingerprint', 'hf', 'io', 'lineage', 'llama_mechanism', 'metrics', 'open_set', 'probes', 'redeploy', 'reports', 'reproducibility', 'structural', 'synthetic', 'unknown', 'victims']}

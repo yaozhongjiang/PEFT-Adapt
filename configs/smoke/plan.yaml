@@ -1,0 +1,5 @@
+experiment:
+  name: synthetic_smoke_plan
+runs:
+  - command: smoke
+    config: configs/smoke/synthetic.yaml

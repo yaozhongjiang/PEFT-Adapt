@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vectorhijack-sr"
+version = "0.2.0"
+description = "PEFT-Adapt: local, reproducible experiments for black-box PEFT structural leakage measurement"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = {text = "Apache-2.0"}
+authors = [{name = "Zhongjiang Yao"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+  "pandas>=2.1,<3",
+  "scikit-learn>=1.4,<2",
+  "PyYAML>=6,<7",
+  "jsonschema>=4.20,<5",
+  "psutil>=5.9,<8",
+  "matplotlib>=3.8,<4",
+  "tqdm>=4.66,<5",
+  "torch>=2.3,<3",
+  "transformers>=4.48,<6",
+  "datasets>=3.0,<5",
+  "peft>=0.15,<1",
+  "accelerate>=1.2,<3",
+  "safetensors>=0.4,<1",
+  "sentencepiece>=0.2,<1",
+  "protobuf>=4,<7",
+]
+
+[project.optional-dependencies]
+quant = ["bitsandbytes>=0.45,<1"]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[project.scripts]
+vectorhijack-sr = "vectorhijack_sr.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: local Transformers/PEFT integration test"]
+addopts = "-q -m 'not integration'"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint.per-file-ignores]
+"src/vectorhijack_sr/hf.py" = ["F401"]

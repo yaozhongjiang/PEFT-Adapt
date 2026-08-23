@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VectorHijack-SR run manifest",
+  "type": "object",
+  "required": [
+    "run_id",
+    "experiment",
+    "environment"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "experiment": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "object",
+          "required": [
+            "name"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "config_sha256": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "mode": {
+      "type": "string"
+    },
+    "service_id": {
+      "type": "string"
+    },
+    "structure": {
+      "type": "string"
+    },
+    "victim_seed": {
+      "type": "integer"
+    },
+    "probe_seed": {
+      "type": "integer"
+    },
+    "model": {
+      "type": "object"
+    },
+    "data": {
+      "type": "object"
+    },
+    "environment": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "counts": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

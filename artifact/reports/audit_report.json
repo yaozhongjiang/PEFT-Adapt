@@ -1,0 +1,25 @@
+{
+  "audit_passes": [
+    {
+      "round": 1,
+      "name": "static_and_protocol",
+      "passed": true,
+      "log": "artifact/reports/audit_round1_static.log"
+    },
+    {
+      "round": 2,
+      "name": "functional_and_hf_integration",
+      "passed": true,
+      "log": "artifact/reports/audit_round2_functional.log"
+    },
+    {
+      "round": 3,
+      "name": "artifact_schema_and_bootstrap",
+      "passed": true,
+      "log": "artifact/reports/audit_round3_artifact.log"
+    }
+  ],
+  "all_passed": true,
+  "full_scale_results_executed": false,
+  "verification_boundary": "Synthetic end-to-end and offline tiny Transformers/PEFT integration were executed. Full BERT/Llama runs require downloads, authorized access, and substantial GPU time."
+}

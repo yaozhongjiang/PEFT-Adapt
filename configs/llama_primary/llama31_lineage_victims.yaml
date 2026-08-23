@@ -1,0 +1,68 @@
+experiment:
+  name: llama31_lineage_victims
+  output_root: artifact
+  seed: 7
+model:
+  model_id: meta-llama/Llama-3.1-8B-Instruct
+  revision: main
+  tokenizer_id: meta-llama/Llama-3.1-8B-Instruct
+  task_type: causal_lm
+  dtype: bfloat16
+  device_map: auto
+  local_files_only: false
+  trust_remote_code: false
+data:
+  dataset_name: glue
+  dataset_config: mnli
+  task_name: mnli
+  train_split: train
+  eval_split: validation_matched
+  probe_split: validation_matched
+  text_fields: [premise, hypothesis]
+  label_field: label
+  label_words: [entailment, neutral, contradiction]
+  num_labels: 3
+  max_length: 512
+  max_train_samples: 8000
+  max_eval_samples: 800
+  max_probe_samples: 400
+  use_chat_template: true
+  probe_selection_seed: 2026
+seeds:
+  victim: [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216]
+  probe: [7, 42, 123]
+structures:
+  - name: lora_r64
+    family: lora
+    known: true
+    rank: 64
+    alpha: 128
+    target_modules: [q_proj, v_proj]
+training:
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  train_batch_size: 1
+  eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 1
+  max_steps: -1
+  warmup_ratio: 0.03
+  logging_steps: 10
+  save_strategy: 'no'
+  eval_strategy: 'no'
+  bf16: true
+  fp16: false
+  gradient_checkpointing: true
+  data_collator: default
+interface:
+  mode: full_logits
+inference:
+  device: cuda
+  disjoint_probe_views: true
+  batch_size: 1
+llama:
+  max_new_tokens: 16
+  label_words: [entailment, neutral, contradiction]
+  # Llama-3.1 BPE: space-prefixed answer tokens matching victim training
+  # (" "+label). entailment is multi-token; use its first answer subtoken.
+  label_token_ids: [87092, 21277, 50859]

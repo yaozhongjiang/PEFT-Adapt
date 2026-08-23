@@ -1,0 +1,16 @@
+{
+  "aupr": 0.39369108576554473,
+  "auroc": 0.2770919067215364,
+  "false_posterior_concentration_accepted": 0.7037037037037037,
+  "false_posterior_concentration_among_accepted": 0.76,
+  "false_posterior_concentration_raw": 0.7777777777777778,
+  "known_accept_accuracy": 1.0,
+  "known_closed_accuracy": 1.0,
+  "known_reject_rate": 0.3333333333333333,
+  "locked_threshold": 0.9203695568415909,
+  "oscr": 0.9931412894375857,
+  "threshold_at_target_fpr": 0.9345325158710817,
+  "tpr_at_target_fpr": 0.0,
+  "unknown_false_accept_rate_locked": 0.9259259259259259,
+  "unknown_recall_locked": 0.07407407407407407
+}

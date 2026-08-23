@@ -1,0 +1,7 @@
+experiment:
+  name: vectorhijack_llama_mechanism_plan
+runs:
+  - command: train-victims
+    config: configs/llama_mechanism/llama31_victims.yaml
+  - command: llama-mechanism
+    config: configs/llama_mechanism/llama31.yaml

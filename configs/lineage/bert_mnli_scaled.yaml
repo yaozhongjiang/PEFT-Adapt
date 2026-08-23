@@ -1,0 +1,18 @@
+experiment:
+  name: bert_mnli_exact_lineage_scaled
+  output_root: artifact
+  seed: 7
+inputs:
+  raw_jsonl:
+    - artifact/raw/bert_mnli_lineage_victims_queries.jsonl
+features:
+  signature_batch_size: 100
+splits:
+  calibration_victim_seeds: [101, 102, 103, 104, 105, 106, 107, 108]
+  validation_victim_seeds: [109, 110, 111, 112]
+  test_victim_seeds: [113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132]
+fingerprint:
+  n_bootstrap: 2000
+  target_tmr: 0.95
+  primary_structure: lora_r64
+  structures: [lora_r64]

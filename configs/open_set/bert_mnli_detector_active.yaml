@@ -1,0 +1,24 @@
+experiment:
+  name: bert_mnli_hybrid_open_set_active
+  output_root: artifact
+  seed: 7
+inputs:
+  raw_jsonl:
+    - artifact/raw/bert_mnli_openworld_victims_queries.jsonl
+features:
+  signature_batch_size: 100
+splits:
+  calibration_victim_seeds: [11, 22, 33, 77, 88]
+  threshold_victim_seeds: [33, 77]
+  test_victim_seeds: [44, 55, 66, 99, 110]
+open_set:
+  rejector: hierarchical_manifold
+  rejection_mode: or
+  target_known_fpr: 0.05
+  posterior_concentration: 0.8
+  n_bootstrap: 2000
+  active_probe:
+    enabled: true
+    keep_fraction: 0.25
+    min_queries: 80
+    max_queries: 400

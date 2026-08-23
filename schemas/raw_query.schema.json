@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VectorHijack-SR raw paired-query record",
+  "type": "object",
+  "required": [
+    "run_id", "service_id", "structure", "victim_seed", "probe_seed",
+    "query_id", "victim_logits", "base_logits"
+  ],
+  "properties": {
+    "run_id": {"type": "string", "minLength": 1},
+    "service_id": {"type": "string", "minLength": 1},
+    "structure": {"type": "string", "minLength": 1},
+    "known": {"type": "boolean"},
+    "victim_seed": {"type": "integer"},
+    "probe_seed": {"type": "integer"},
+    "query_id": {"type": "integer", "minimum": 0},
+    "label": {"type": "integer"},
+    "input_length": {"type": "integer", "minimum": 0},
+    "victim_logits": {"type": "array", "minItems": 1, "items": {"type": "number"}},
+    "base_logits": {"type": "array", "minItems": 1, "items": {"type": "number"}}
+  },
+  "additionalProperties": true
+}

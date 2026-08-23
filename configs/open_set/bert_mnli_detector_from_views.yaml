@@ -1,0 +1,20 @@
+experiment:
+  name: bert_mnli_hybrid_open_set
+  output_root: ../sr_release_artifact
+  seed: 7
+inputs:
+  # Offline re-run from exported service views (no raw JSONL required).
+  service_views_csv: ../sr_release_artifact/summaries/bert_mnli_hybrid_open_set_service_views.csv
+features:
+  signature_batch_size: 100
+splits:
+  # Current exported artifact has seeds {11..66} only.
+  calibration_victim_seeds: [11, 22, 33]
+  threshold_victim_seeds: [33]
+  test_victim_seeds: [44, 55, 66]
+open_set:
+  rejector: hierarchical_manifold
+  rejection_mode: or
+  target_known_fpr: 0.05
+  posterior_concentration: 0.8
+  n_bootstrap: 2000

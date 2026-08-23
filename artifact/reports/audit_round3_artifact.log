@@ -1,0 +1,32 @@
+[Round 3] raw-data, schema, bootstrap, and packaging audit
+artifact/reports/all_summaries.json
+{
+  "root": "/mnt/data/VectorHijack_SR_experiments_release/artifact",
+  "profile": "smoke",
+  "expected_tokens": [
+    "synthetic"
+  ],
+  "raw_files": 1,
+  "raw_rows": 12960,
+  "duplicate_raw_identities": 0,
+  "summary_files": 3,
+  "summary_rows": 585,
+  "manifest_files": 1,
+  "report_files": 4,
+  "warnings": [],
+  "errors": [],
+  "passed": true
+}
+{
+  "estimate": 0.22880937093965825,
+  "ci_lower": 0.0958248395542526,
+  "ci_upper": 0.3591548534461332,
+  "n_bootstrap": 100,
+  "cluster_count": 21
+}
+{
+  "file_count": 125,
+  "total_bytes": 8590716,
+  "errors": [],
+  "passed": true
+}
