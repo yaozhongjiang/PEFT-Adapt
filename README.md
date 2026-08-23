@@ -210,19 +210,3 @@ Run only on local models and services you own or are authorized to test. See `ET
 ## Verification boundary
 
 The supplied audit executes the offline synthetic pipeline and a tiny local Transformers/PEFT model. It does not claim that the expensive BERT/Llama numerical results have already been generated. `ARTIFACT_STATUS.md`, `RUNBOOK.md`, and `AUDIT_REPORT.md` make this boundary explicit.
-
-## Paper
-
-[When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services](https://arxiv.org/abs/2608.05036)
-
-```bibtex
-@misc{yao2026peftadaptationsleakstructure,
-      title={When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services},
-      author={Zhongjiang Yao and Shuangshuang Liang and Chun Yang and LiWei Chen and Gang Shi},
-      year={2026},
-      eprint={2608.05036},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2608.05036},
-}
-```
