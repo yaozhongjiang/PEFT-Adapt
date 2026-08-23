@@ -1,24 +1,8 @@
 # PEFT-Adapt
 
-This repository is the public release of the PEFT-Adapt experimental artifact.
+PEFT-Adapt measures black-box structural leakage from parameter-efficient adaptations served on a known public base. It sends the same probes to a local victim and the locally executed base, turns the aligned residuals into service-level signatures, and estimates PEFT family, layer locality, and a coarse rank bucket. The same pipeline can reject structures outside the calibrated known set, link two services to the same private checkpoint, and compare PEFT-format recovery against cost-matched distillation. Runs are limited to controlled local victims; the package does not include a production-API scanner.
 
-## Paper
-
-[When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services](https://arxiv.org/abs/2608.05036)
-
-```bibtex
-@misc{yao2026peftadaptationsleakstructure,
-      title={When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services},
-      author={Zhongjiang Yao and Shuangshuang Liang and Chun Yang and LiWei Chen and Gang Shi},
-      year={2026},
-      eprint={2608.05036},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2608.05036},
-}
-```
-
-It implements the six highest-priority experiments for the paper:
+Supported measurements:
 
 1. real fixed-victim public-base mismatch;
 2. cross-fitted hybrid unknown detection;
@@ -27,7 +11,7 @@ It implements the six highest-priority experiments for the paper:
 5. raw JSONL, summary CSV, manifests, service-level bootstrap, and one-command validation;
 6. Llama one-token results explicitly scoped as a trajectory-alignment mechanism diagnostic.
 
-The code defaults to controlled local victims. It contains no production-API scanner. The locked unknown-detector decision unit is a disjoint service/probe view rather than an internal mini-batch, and weighted adapter composition combines only body deltas while restoring each task-specific head for evaluation.
+The locked unknown-detector decision unit is a disjoint service/probe view rather than an internal mini-batch, and weighted adapter composition combines only body deltas while restoring each task-specific head for evaluation.
 
 ## What is executable immediately
 
@@ -226,3 +210,19 @@ Run only on local models and services you own or are authorized to test. See `ET
 ## Verification boundary
 
 The supplied audit executes the offline synthetic pipeline and a tiny local Transformers/PEFT model. It does not claim that the expensive BERT/Llama numerical results have already been generated. `ARTIFACT_STATUS.md`, `RUNBOOK.md`, and `AUDIT_REPORT.md` make this boundary explicit.
+
+## Paper
+
+[When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services](https://arxiv.org/abs/2608.05036)
+
+```bibtex
+@misc{yao2026peftadaptationsleakstructure,
+      title={When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services},
+      author={Zhongjiang Yao and Shuangshuang Liang and Chun Yang and LiWei Chen and Gang Shi},
+      year={2026},
+      eprint={2608.05036},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2608.05036},
+}
+```
