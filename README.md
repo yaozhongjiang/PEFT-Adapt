@@ -1,8 +1,24 @@
 # PEFT-Adapt
 
-Author: Zhongjiang Yao
+This repository is the public release of the PEFT-Adapt experimental artifact.
 
-This repository is the public release of the PEFT-Adapt experimental artifact. It implements the six highest-priority experiments for the paper:
+## Paper
+
+[When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services](https://arxiv.org/abs/2608.05036)
+
+```bibtex
+@misc{yao2026peftadaptationsleakstructure,
+      title={When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services},
+      author={Zhongjiang Yao and Shuangshuang Liang and Chun Yang and LiWei Chen and Gang Shi},
+      year={2026},
+      eprint={2608.05036},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2608.05036},
+}
+```
+
+It implements the six highest-priority experiments for the paper:
 
 1. real fixed-victim public-base mismatch;
 2. cross-fitted hybrid unknown detection;
