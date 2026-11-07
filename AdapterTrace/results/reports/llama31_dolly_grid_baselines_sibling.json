@@ -1,0 +1,6286 @@
+{
+  "summary": {
+    "MPT/derived": {
+      "n": 16,
+      "flag_rate_at_0.05": 1.0,
+      "flag_rate_at_0.001": 1.0,
+      "median_p": 1.6794512309570291e-133
+    },
+    "MPT/sibling": {
+      "n": 312,
+      "flag_rate_at_0.05": 1.0,
+      "flag_rate_at_0.001": 1.0,
+      "median_p": 1.1526723803354755e-117
+    },
+    "BASE-LINEAGE/derived": {
+      "n": 16,
+      "flag_rate_at_0.05": 0.0,
+      "flag_rate_at_0.001": 0.0,
+      "median_p": 0.9811438380907757
+    },
+    "BASE-LINEAGE/sibling": {
+      "n": 312,
+      "flag_rate_at_0.05": 0.0,
+      "flag_rate_at_0.001": 0.0,
+      "median_p": 0.9790835919908499
+    },
+    "SIM-RANK/derived": {
+      "n": 16,
+      "flag_rate_at_0.05": 0.9375,
+      "flag_rate_at_0.001": 0.0,
+      "median_p": 0.025
+    },
+    "SIM-RANK/sibling": {
+      "n": 312,
+      "flag_rate_at_0.05": 0.02564102564102564,
+      "flag_rate_at_0.001": 0.0,
+      "median_p": 0.5128205128205128
+    }
+  },
+  "first_word_agreement_with_owner0": {
+    "g1": 0.942,
+    "g0_svd4": 0.976,
+    "g0_merge": 0.939,
+    "base": 0.403
+  },
+  "rows": {
+    "MPT": [
+      {
+        "owner": 0,
+        "suspect": "g0_svd4",
+        "relation": "derived",
+        "p": 6.476558239711511e-147
+      },
+      {
+        "owner": 0,
+        "suspect": "g0_merge",
+        "relation": "derived",
+        "p": 7.232821055719003e-125
+      },
+      {
+        "owner": 0,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 5.3261792521951136e-124
+      },
+      {
+        "owner": 0,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 5.139108889288808e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 8.920035172019755e-123
+      },
+      {
+        "owner": 0,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 1.2383731516437507e-113
+      },
+      {
+        "owner": 0,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 1.6177661207742196e-128
+      },
+      {
+        "owner": 0,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 7.465841640483255e-108
+      },
+      {
+        "owner": 0,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 7.977733102858966e-119
+      },
+      {
+        "owner": 0,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 2.370134467324917e-115
+      },
+      {
+        "owner": 0,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 3.0291746114028383e-120
+      },
+      {
+        "owner": 0,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 1.5027023447229678e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 5.550118104474351e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 4.104167138051656e-116
+      },
+      {
+        "owner": 0,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 1.2360680961925222e-114
+      },
+      {
+        "owner": 0,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 2.4893173009163046e-126
+      },
+      {
+        "owner": 0,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 5.91407724523289e-109
+      },
+      {
+        "owner": 0,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 3.4180209002015653e-119
+      },
+      {
+        "owner": 0,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 1.0877077482960019e-119
+      },
+      {
+        "owner": 0,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 6.5651054550743125e-118
+      },
+      {
+        "owner": 0,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 5.468668280704648e-127
+      },
+      {
+        "owner": 0,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 1.6827854143965037e-118
+      },
+      {
+        "owner": 0,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 3.450190611889426e-115
+      },
+      {
+        "owner": 0,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 5.550118104474351e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 2.277448759666368e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 3.847800872786855e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 7.902429939295628e-122
+      },
+      {
+        "owner": 0,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 1.1982131815767982e-107
+      },
+      {
+        "owner": 0,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 9.091895044664139e-124
+      },
+      {
+        "owner": 0,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 2.261518885856602e-125
+      },
+      {
+        "owner": 0,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 1.2485568815190424e-120
+      },
+      {
+        "owner": 0,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 1.4332234788072281e-108
+      },
+      {
+        "owner": 0,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 5.473602087643469e-115
+      },
+      {
+        "owner": 0,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 7.338998955037673e-120
+      },
+      {
+        "owner": 0,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 8.93951728857313e-121
+      },
+      {
+        "owner": 0,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 1.605197949488954e-123
+      },
+      {
+        "owner": 0,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 1.5216834359514645e-124
+      },
+      {
+        "owner": 0,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 1.5287820714885817e-120
+      },
+      {
+        "owner": 0,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 3.17715929638403e-118
+      },
+      {
+        "owner": 0,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 3.087059812102101e-102
+      },
+      {
+        "owner": 0,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 3.490332492621792e-120
+      },
+      {
+        "owner": 1,
+        "suspect": "g1_svd4",
+        "relation": "derived",
+        "p": 6.721266549578038e-144
+      },
+      {
+        "owner": 1,
+        "suspect": "g1_merge",
+        "relation": "derived",
+        "p": 1.3791404779341849e-130
+      },
+      {
+        "owner": 1,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 1.6781109890925446e-127
+      },
+      {
+        "owner": 1,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 2.0040314017007476e-123
+      },
+      {
+        "owner": 1,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 8.484236596202435e-120
+      },
+      {
+        "owner": 1,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 6.43090282633965e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 8.670194518234175e-122
+      },
+      {
+        "owner": 1,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 9.534923835927442e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 1.1783139785823452e-117
+      },
+      {
+        "owner": 1,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 8.908219542198626e-115
+      },
+      {
+        "owner": 1,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 1.8195835485473312e-118
+      },
+      {
+        "owner": 1,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 9.652071080289659e-123
+      },
+      {
+        "owner": 1,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 1.0036987211111252e-115
+      },
+      {
+        "owner": 1,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 3.282304156908695e-120
+      },
+      {
+        "owner": 1,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 8.430398746950155e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 2.5940803248807304e-123
+      },
+      {
+        "owner": 1,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 2.503841428487177e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 1.3101101911168561e-118
+      },
+      {
+        "owner": 1,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 8.79642336067236e-126
+      },
+      {
+        "owner": 1,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 1.5216834359514645e-124
+      },
+      {
+        "owner": 1,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 2.247377039685883e-126
+      },
+      {
+        "owner": 1,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 6.275142132251424e-124
+      },
+      {
+        "owner": 1,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 1.0350572148031048e-118
+      },
+      {
+        "owner": 1,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 8.484236596202435e-120
+      },
+      {
+        "owner": 1,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 5.236903676093442e-119
+      },
+      {
+        "owner": 1,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 1.720703189671704e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 1.7553307544758685e-125
+      },
+      {
+        "owner": 1,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 3.522191523092644e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 7.694001788344441e-118
+      },
+      {
+        "owner": 1,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 2.3618175239539388e-122
+      },
+      {
+        "owner": 1,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 4.8932118957265854e-123
+      },
+      {
+        "owner": 1,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 2.1945584396436472e-111
+      },
+      {
+        "owner": 1,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 3.774207245708411e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 4.391582069068694e-118
+      },
+      {
+        "owner": 1,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 2.012564081240717e-118
+      },
+      {
+        "owner": 1,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 8.770301329784529e-115
+      },
+      {
+        "owner": 1,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 3.669066801632138e-125
+      },
+      {
+        "owner": 1,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 6.23928423330791e-116
+      },
+      {
+        "owner": 1,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 1.2098939874774659e-117
+      },
+      {
+        "owner": 1,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 3.3535171629976734e-108
+      },
+      {
+        "owner": 1,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 1.3555543926145176e-119
+      },
+      {
+        "owner": 2,
+        "suspect": "g2_svd4",
+        "relation": "derived",
+        "p": 4.236188295929105e-144
+      },
+      {
+        "owner": 2,
+        "suspect": "g2_merge",
+        "relation": "derived",
+        "p": 6.740745073186964e-128
+      },
+      {
+        "owner": 2,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 2.1123296032004552e-121
+      },
+      {
+        "owner": 2,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 2.4358306918833337e-120
+      },
+      {
+        "owner": 2,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 3.352778319144393e-125
+      },
+      {
+        "owner": 2,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 6.43090282633965e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 8.230697995517011e-125
+      },
+      {
+        "owner": 2,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 7.187240283309174e-123
+      },
+      {
+        "owner": 2,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 2.1789715007626528e-122
+      },
+      {
+        "owner": 2,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 1.651685952669157e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 2.959265516754117e-113
+      },
+      {
+        "owner": 2,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 1.5027023447229678e-121
+      },
+      {
+        "owner": 2,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 1.2697009564073925e-118
+      },
+      {
+        "owner": 2,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 7.432147583713929e-118
+      },
+      {
+        "owner": 2,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 4.6950432694764005e-114
+      },
+      {
+        "owner": 2,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 2.5940803248807304e-123
+      },
+      {
+        "owner": 2,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 3.611898081017709e-115
+      },
+      {
+        "owner": 2,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 3.81860982134528e-122
+      },
+      {
+        "owner": 2,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 3.669066801632138e-125
+      },
+      {
+        "owner": 2,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 2.0968356276981494e-126
+      },
+      {
+        "owner": 2,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 1.5092497481687178e-124
+      },
+      {
+        "owner": 2,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 1.71534191182501e-121
+      },
+      {
+        "owner": 2,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 3.4903574682875274e-111
+      },
+      {
+        "owner": 2,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 5.550118104474351e-121
+      },
+      {
+        "owner": 2,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 5.236903676093442e-119
+      },
+      {
+        "owner": 2,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 1.720703189671704e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 2.9636198568586393e-124
+      },
+      {
+        "owner": 2,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 1.4474702222726425e-111
+      },
+      {
+        "owner": 2,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 2.254607125801492e-124
+      },
+      {
+        "owner": 2,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 9.181049376893158e-125
+      },
+      {
+        "owner": 2,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 2.4254798068710107e-127
+      },
+      {
+        "owner": 2,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 1.117809428692982e-113
+      },
+      {
+        "owner": 2,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 3.774207245708411e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 2.503841428487177e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 4.1669951776477757e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 2.2181326354151416e-119
+      },
+      {
+        "owner": 2,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 2.7432801542437175e-128
+      },
+      {
+        "owner": 2,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 6.23928423330791e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 6.477540796377596e-116
+      },
+      {
+        "owner": 2,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 1.4474702222726425e-111
+      },
+      {
+        "owner": 2,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 2.012564081240717e-118
+      },
+      {
+        "owner": 3,
+        "suspect": "g3_svd4",
+        "relation": "derived",
+        "p": 6.280287188670413e-146
+      },
+      {
+        "owner": 3,
+        "suspect": "g3_merge",
+        "relation": "derived",
+        "p": 5.4464593371672874e-123
+      },
+      {
+        "owner": 3,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 5.3153217600328e-122
+      },
+      {
+        "owner": 3,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 1.3540848325144863e-115
+      },
+      {
+        "owner": 3,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 4.939582990772499e-124
+      },
+      {
+        "owner": 3,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 3.3500058037201165e-114
+      },
+      {
+        "owner": 3,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 2.4141564277709233e-115
+      },
+      {
+        "owner": 3,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 4.5919021742537513e-110
+      },
+      {
+        "owner": 3,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 7.977733102858966e-119
+      },
+      {
+        "owner": 3,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 1.651685952669157e-116
+      },
+      {
+        "owner": 3,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 1.8195835485473312e-118
+      },
+      {
+        "owner": 3,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 3.81860982134528e-122
+      },
+      {
+        "owner": 3,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 1.2697009564073925e-118
+      },
+      {
+        "owner": 3,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 1.0880769692612213e-112
+      },
+      {
+        "owner": 3,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 5.882434714030807e-120
+      },
+      {
+        "owner": 3,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 3.6066504956003553e-128
+      },
+      {
+        "owner": 3,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 5.280958616409077e-103
+      },
+      {
+        "owner": 3,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 2.2903273918434796e-120
+      },
+      {
+        "owner": 3,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 4.289985085401002e-119
+      },
+      {
+        "owner": 3,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 8.79642336067236e-126
+      },
+      {
+        "owner": 3,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 3.81860982134528e-122
+      },
+      {
+        "owner": 3,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 7.771940871349143e-114
+      },
+      {
+        "owner": 3,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 4.937858735286769e-114
+      },
+      {
+        "owner": 3,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 3.29082497041145e-119
+      },
+      {
+        "owner": 3,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 2.9156257574797833e-113
+      },
+      {
+        "owner": 3,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 8.480003187375207e-119
+      },
+      {
+        "owner": 3,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 2.9206859944288685e-118
+      },
+      {
+        "owner": 3,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 7.740380960190108e-104
+      },
+      {
+        "owner": 3,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 5.560480742872362e-125
+      },
+      {
+        "owner": 3,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 5.575899117437148e-120
+      },
+      {
+        "owner": 3,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 4.8932118957265854e-123
+      },
+      {
+        "owner": 3,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 2.3337587823257456e-106
+      },
+      {
+        "owner": 3,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 2.067974529858764e-114
+      },
+      {
+        "owner": 3,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 4.391582069068694e-118
+      },
+      {
+        "owner": 3,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 2.9156257574797833e-113
+      },
+      {
+        "owner": 3,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 2.377387059884694e-115
+      },
+      {
+        "owner": 3,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 6.5651054550743125e-118
+      },
+      {
+        "owner": 3,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 6.688097416566682e-126
+      },
+      {
+        "owner": 3,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 2.109284471633524e-111
+      },
+      {
+        "owner": 3,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 1.1982131815767982e-107
+      },
+      {
+        "owner": 3,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 8.93951728857313e-121
+      },
+      {
+        "owner": 4,
+        "suspect": "g4_svd4",
+        "relation": "derived",
+        "p": 2.0346732394313293e-142
+      },
+      {
+        "owner": 4,
+        "suspect": "g4_merge",
+        "relation": "derived",
+        "p": 1.9718439935839602e-122
+      },
+      {
+        "owner": 4,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 2.9624480193334485e-113
+      },
+      {
+        "owner": 4,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 3.9077039125032957e-112
+      },
+      {
+        "owner": 4,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 3.7144900816515423e-115
+      },
+      {
+        "owner": 4,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 1.3965060034671652e-114
+      },
+      {
+        "owner": 4,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 1.6666444697988067e-112
+      },
+      {
+        "owner": 4,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 1.6520846851980162e-109
+      },
+      {
+        "owner": 4,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 1.2383731516437507e-113
+      },
+      {
+        "owner": 4,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 2.9206859944288685e-118
+      },
+      {
+        "owner": 4,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 1.3753146133264725e-106
+      },
+      {
+        "owner": 4,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 1.0030200369065517e-115
+      },
+      {
+        "owner": 4,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 1.8943546203153156e-108
+      },
+      {
+        "owner": 4,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 8.024708432934047e-114
+      },
+      {
+        "owner": 4,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 3.4279883137245204e-111
+      },
+      {
+        "owner": 4,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 2.366866041625275e-120
+      },
+      {
+        "owner": 4,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 1.902557216893421e-113
+      },
+      {
+        "owner": 4,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 1.378414996834167e-114
+      },
+      {
+        "owner": 4,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 2.905602413597309e-113
+      },
+      {
+        "owner": 4,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 5.473602087643469e-115
+      },
+      {
+        "owner": 4,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 6.762105336146221e-113
+      },
+      {
+        "owner": 4,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 2.547447410192658e-117
+      },
+      {
+        "owner": 4,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 7.730841535110919e-108
+      },
+      {
+        "owner": 4,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 4.873183809848527e-118
+      },
+      {
+        "owner": 4,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 1.3555543926145176e-119
+      },
+      {
+        "owner": 4,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 1.9912670098290428e-111
+      },
+      {
+        "owner": 4,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 3.33082753704256e-114
+      },
+      {
+        "owner": 4,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 1.1786305732125002e-100
+      },
+      {
+        "owner": 4,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 6.117650297452298e-103
+      },
+      {
+        "owner": 4,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 2.109284471633524e-111
+      },
+      {
+        "owner": 4,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 8.908219542198626e-115
+      },
+      {
+        "owner": 4,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 8.231606962202101e-106
+      },
+      {
+        "owner": 4,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 2.8443729256627506e-102
+      },
+      {
+        "owner": 4,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 1.902557216893421e-113
+      },
+      {
+        "owner": 4,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 7.946203376645615e-114
+      },
+      {
+        "owner": 4,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 1.545276645023486e-112
+      },
+      {
+        "owner": 4,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 1.4716015919789804e-111
+      },
+      {
+        "owner": 4,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 1.684506101485327e-116
+      },
+      {
+        "owner": 4,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 7.559083765134742e-111
+      },
+      {
+        "owner": 4,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 1.1786305732125002e-100
+      },
+      {
+        "owner": 4,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 2.2701025385645093e-109
+      },
+      {
+        "owner": 5,
+        "suspect": "g5_svd4",
+        "relation": "derived",
+        "p": 4.817959701726647e-141
+      },
+      {
+        "owner": 5,
+        "suspect": "g5_merge",
+        "relation": "derived",
+        "p": 3.3477002176278345e-133
+      },
+      {
+        "owner": 5,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 3.9946055142316596e-128
+      },
+      {
+        "owner": 5,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 6.000466341167218e-118
+      },
+      {
+        "owner": 5,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 4.939582990772499e-124
+      },
+      {
+        "owner": 5,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 1.0036987211111252e-115
+      },
+      {
+        "owner": 5,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 1.6666444697988067e-112
+      },
+      {
+        "owner": 5,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 5.10194494146607e-114
+      },
+      {
+        "owner": 5,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 1.6177661207742196e-128
+      },
+      {
+        "owner": 5,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 1.1270307820886056e-117
+      },
+      {
+        "owner": 5,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 4.802002487040116e-122
+      },
+      {
+        "owner": 5,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 3.184782571816219e-128
+      },
+      {
+        "owner": 5,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 1.98870297751039e-126
+      },
+      {
+        "owner": 5,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 4.991936011880822e-119
+      },
+      {
+        "owner": 5,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 2.183886516637153e-116
+      },
+      {
+        "owner": 5,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 1.0100407869445415e-125
+      },
+      {
+        "owner": 5,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 2.604921435778235e-112
+      },
+      {
+        "owner": 5,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 2.247377039685883e-126
+      },
+      {
+        "owner": 5,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 8.79642336067236e-126
+      },
+      {
+        "owner": 5,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 9.8317261320092e-117
+      },
+      {
+        "owner": 5,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 3.436281073729167e-135
+      },
+      {
+        "owner": 5,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 1.0492012771091253e-122
+      },
+      {
+        "owner": 5,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 4.937858735286769e-114
+      },
+      {
+        "owner": 5,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 1.3652674040799275e-124
+      },
+      {
+        "owner": 5,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 8.93951728857313e-121
+      },
+      {
+        "owner": 5,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 8.480003187375207e-119
+      },
+      {
+        "owner": 5,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 6.273190689811332e-116
+      },
+      {
+        "owner": 5,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 9.338127390648683e-109
+      },
+      {
+        "owner": 5,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 2.254607125801492e-124
+      },
+      {
+        "owner": 5,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 2.3618175239539388e-122
+      },
+      {
+        "owner": 5,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 4.8932118957265854e-123
+      },
+      {
+        "owner": 5,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 1.3483767660044052e-116
+      },
+      {
+        "owner": 5,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 1.0877077482960019e-119
+      },
+      {
+        "owner": 5,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 2.886126679929284e-119
+      },
+      {
+        "owner": 5,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 2.277448759666368e-121
+      },
+      {
+        "owner": 5,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 2.936792301415839e-130
+      },
+      {
+        "owner": 5,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 4.969570922817818e-127
+      },
+      {
+        "owner": 5,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 1.2095018693499942e-117
+      },
+      {
+        "owner": 5,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 4.583587095209293e-117
+      },
+      {
+        "owner": 5,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 1.9552308141217678e-110
+      },
+      {
+        "owner": 5,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 3.646477255558996e-123
+      },
+      {
+        "owner": 6,
+        "suspect": "g6_svd4",
+        "relation": "derived",
+        "p": 2.6395015267772422e-145
+      },
+      {
+        "owner": 6,
+        "suspect": "g6_merge",
+        "relation": "derived",
+        "p": 3.1836643057636205e-129
+      },
+      {
+        "owner": 6,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 2.403125015045744e-109
+      },
+      {
+        "owner": 6,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 7.450102074913339e-114
+      },
+      {
+        "owner": 6,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 4.939582990772499e-124
+      },
+      {
+        "owner": 6,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 2.543281677208887e-112
+      },
+      {
+        "owner": 6,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 2.198213980989068e-111
+      },
+      {
+        "owner": 6,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 6.43090282633965e-116
+      },
+      {
+        "owner": 6,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 3.3500058037201165e-114
+      },
+      {
+        "owner": 6,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 1.651685952669157e-116
+      },
+      {
+        "owner": 6,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 2.2705532909116246e-103
+      },
+      {
+        "owner": 6,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 1.5027023447229678e-121
+      },
+      {
+        "owner": 6,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 9.225946629680804e-112
+      },
+      {
+        "owner": 6,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 1.4456978884419013e-111
+      },
+      {
+        "owner": 6,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 4.617942571907538e-110
+      },
+      {
+        "owner": 6,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 3.6392972175614655e-115
+      },
+      {
+        "owner": 6,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 6.54024667597701e-117
+      },
+      {
+        "owner": 6,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 1.8564761108061685e-113
+      },
+      {
+        "owner": 6,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 1.44113104283188e-115
+      },
+      {
+        "owner": 6,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 2.547447410192658e-117
+      },
+      {
+        "owner": 6,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 1.895013112144414e-117
+      },
+      {
+        "owner": 6,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 6.878131517894003e-121
+      },
+      {
+        "owner": 6,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 4.9197564671060447e-104
+      },
+      {
+        "owner": 6,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 1.2697009564073925e-118
+      },
+      {
+        "owner": 6,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 1.454583456945482e-122
+      },
+      {
+        "owner": 6,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 4.273070196943339e-113
+      },
+      {
+        "owner": 6,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 4.5850464346275825e-113
+      },
+      {
+        "owner": 6,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 9.079632466312044e-103
+      },
+      {
+        "owner": 6,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 2.9156257574797833e-113
+      },
+      {
+        "owner": 6,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 3.17715929638403e-118
+      },
+      {
+        "owner": 6,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 6.273190689811332e-116
+      },
+      {
+        "owner": 6,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 1.089159092686459e-109
+      },
+      {
+        "owner": 6,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 1.4508908575744292e-106
+      },
+      {
+        "owner": 6,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 7.465841640483255e-108
+      },
+      {
+        "owner": 6,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 1.0644318996711773e-112
+      },
+      {
+        "owner": 6,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 1.1757782009750017e-113
+      },
+      {
+        "owner": 6,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 2.547447410192658e-117
+      },
+      {
+        "owner": 6,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 6.555495009801883e-111
+      },
+      {
+        "owner": 6,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 2.109284471633524e-111
+      },
+      {
+        "owner": 6,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 3.087059812102101e-102
+      },
+      {
+        "owner": 6,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 5.813262619483225e-115
+      },
+      {
+        "owner": 7,
+        "suspect": "g7_svd4",
+        "relation": "derived",
+        "p": 1.1202244286223732e-135
+      },
+      {
+        "owner": 7,
+        "suspect": "g7_merge",
+        "relation": "derived",
+        "p": 5.398917960416391e-128
+      },
+      {
+        "owner": 7,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 1.931266419660025e-118
+      },
+      {
+        "owner": 7,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 7.450102074913339e-114
+      },
+      {
+        "owner": 7,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 1.2947970194581802e-121
+      },
+      {
+        "owner": 7,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 3.29082497041145e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 1.2383731516437507e-113
+      },
+      {
+        "owner": 7,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 1.6177661207742196e-128
+      },
+      {
+        "owner": 7,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 2.604921435778235e-112
+      },
+      {
+        "owner": 7,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 1.9302868431795317e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 4.671253976441106e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 5.468668280704648e-127
+      },
+      {
+        "owner": 7,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 1.8605818889656625e-117
+      },
+      {
+        "owner": 7,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 1.931266419660025e-118
+      },
+      {
+        "owner": 7,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 3.6338849246715177e-121
+      },
+      {
+        "owner": 7,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 2.4893173009163046e-126
+      },
+      {
+        "owner": 7,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 9.239364817301711e-107
+      },
+      {
+        "owner": 7,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 2.4266571761992816e-123
+      },
+      {
+        "owner": 7,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 1.0877077482960019e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 1.0806256596478394e-112
+      },
+      {
+        "owner": 7,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 5.468668280704648e-127
+      },
+      {
+        "owner": 7,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 6.878131517894003e-121
+      },
+      {
+        "owner": 7,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 9.047616044117053e-116
+      },
+      {
+        "owner": 7,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 3.5537608059859524e-122
+      },
+      {
+        "owner": 7,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 1.7988192651257177e-110
+      },
+      {
+        "owner": 7,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 8.480003187375207e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 2.370134467324917e-115
+      },
+      {
+        "owner": 7,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 9.338127390648683e-109
+      },
+      {
+        "owner": 7,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 7.946203376645615e-114
+      },
+      {
+        "owner": 7,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 3.311935328043258e-114
+      },
+      {
+        "owner": 7,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 1.1270307820886056e-117
+      },
+      {
+        "owner": 7,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 4.2176477803653244e-113
+      },
+      {
+        "owner": 7,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 1.4716015919789804e-111
+      },
+      {
+        "owner": 7,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 6.54024667597701e-117
+      },
+      {
+        "owner": 7,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 3.490332492621792e-120
+      },
+      {
+        "owner": 7,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 1.0041494563332198e-124
+      },
+      {
+        "owner": 7,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 1.0877077482960019e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 2.2403381543798654e-119
+      },
+      {
+        "owner": 7,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 1.72752052569637e-116
+      },
+      {
+        "owner": 7,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 3.517150147565809e-101
+      },
+      {
+        "owner": 7,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 8.93951728857313e-121
+      }
+    ],
+    "BASE-LINEAGE": [
+      {
+        "owner": 0,
+        "suspect": "g0_svd4",
+        "relation": "derived",
+        "p": 0.9830526994226123
+      },
+      {
+        "owner": 0,
+        "suspect": "g0_merge",
+        "relation": "derived",
+        "p": 0.973991144226856
+      },
+      {
+        "owner": 0,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 0,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 0,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 0,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 0,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 0,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 0,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 0,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 0,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 0,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 0,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 0,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 0,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 0,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 0,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 0,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 0,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 0,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 0,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 0,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 0,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 0,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 0,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 0,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 0,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 0,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 0,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 0,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 0,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 0,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 0,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 0,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 0,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 0,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 0,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 0,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 0,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 0,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 0,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 1,
+        "suspect": "g1_svd4",
+        "relation": "derived",
+        "p": 0.97367205446033
+      },
+      {
+        "owner": 1,
+        "suspect": "g1_merge",
+        "relation": "derived",
+        "p": 0.9765248670725043
+      },
+      {
+        "owner": 1,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 1,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 1,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 1,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 1,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 1,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 1,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 1,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 1,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 1,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 1,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 1,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 1,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 1,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 1,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 1,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 1,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 1,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 1,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 1,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 1,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 1,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 1,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 1,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 1,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 1,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 1,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 1,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 1,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 1,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 1,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 1,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 1,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 1,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 1,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 1,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 1,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 1,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 1,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 2,
+        "suspect": "g2_svd4",
+        "relation": "derived",
+        "p": 0.9880168432344485
+      },
+      {
+        "owner": 2,
+        "suspect": "g2_merge",
+        "relation": "derived",
+        "p": 0.9865452437819177
+      },
+      {
+        "owner": 2,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 2,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 2,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 2,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 2,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 2,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 2,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 2,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 2,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 2,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 2,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 2,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 2,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 2,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 2,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 2,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 2,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 2,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 2,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 2,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 2,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 2,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 2,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 2,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 2,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 2,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 2,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 2,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 2,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 2,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 2,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 2,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 2,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 2,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 2,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 2,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 2,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 2,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 2,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 3,
+        "suspect": "g3_svd4",
+        "relation": "derived",
+        "p": 0.974060631773618
+      },
+      {
+        "owner": 3,
+        "suspect": "g3_merge",
+        "relation": "derived",
+        "p": 0.983287721616266
+      },
+      {
+        "owner": 3,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 3,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 3,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 3,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 3,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 3,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 3,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 3,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 3,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 3,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 3,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 3,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 3,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 3,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 3,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 3,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 3,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 3,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 3,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 3,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 3,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 3,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 3,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 3,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 3,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 3,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 3,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 3,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 3,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 3,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 3,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 3,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 3,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 3,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 3,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 3,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 3,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 3,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 3,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 4,
+        "suspect": "g4_svd4",
+        "relation": "derived",
+        "p": 0.9810749984745124
+      },
+      {
+        "owner": 4,
+        "suspect": "g4_merge",
+        "relation": "derived",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 4,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 4,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 4,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 4,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 4,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 4,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 4,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 4,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 4,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 4,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 4,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 4,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 4,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 4,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 4,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 4,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 4,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 4,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 4,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 4,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 4,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 4,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 4,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 4,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 4,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 4,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 4,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 4,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 4,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 4,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 4,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 4,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 4,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 4,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 4,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 4,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 4,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 4,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 4,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 5,
+        "suspect": "g5_svd4",
+        "relation": "derived",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 5,
+        "suspect": "g5_merge",
+        "relation": "derived",
+        "p": 0.976685310204571
+      },
+      {
+        "owner": 5,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 5,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 5,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 5,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 5,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 5,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 5,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 5,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 5,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 5,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 5,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 5,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 5,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 5,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 5,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 5,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 5,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 5,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 5,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 5,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 5,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 5,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 5,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 5,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 5,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 5,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 5,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 5,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 5,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 5,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 5,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 5,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 5,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 5,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 5,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 5,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 5,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 5,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 5,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 6,
+        "suspect": "g6_svd4",
+        "relation": "derived",
+        "p": 0.9644731647402137
+      },
+      {
+        "owner": 6,
+        "suspect": "g6_merge",
+        "relation": "derived",
+        "p": 0.9850165842076039
+      },
+      {
+        "owner": 6,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 6,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 6,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 6,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 6,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 6,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 6,
+        "suspect": "g7",
+        "relation": "sibling",
+        "p": 0.9767187170126536
+      },
+      {
+        "owner": 6,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 6,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 6,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 6,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 6,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 6,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 6,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 6,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 6,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 6,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 6,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 6,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 6,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 6,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 6,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 6,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 6,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 6,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 6,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 6,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 6,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 6,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 6,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 6,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 6,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 6,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 6,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 6,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 6,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 6,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 6,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 6,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      },
+      {
+        "owner": 7,
+        "suspect": "g7_svd4",
+        "relation": "derived",
+        "p": 0.9892933042116161
+      },
+      {
+        "owner": 7,
+        "suspect": "g7_merge",
+        "relation": "derived",
+        "p": 0.9879777629663477
+      },
+      {
+        "owner": 7,
+        "suspect": "g0",
+        "relation": "sibling",
+        "p": 0.9790835919908499
+      },
+      {
+        "owner": 7,
+        "suspect": "g1",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 7,
+        "suspect": "g2",
+        "relation": "sibling",
+        "p": 0.9907033717015468
+      },
+      {
+        "owner": 7,
+        "suspect": "g3",
+        "relation": "sibling",
+        "p": 0.9882286867849625
+      },
+      {
+        "owner": 7,
+        "suspect": "g4",
+        "relation": "sibling",
+        "p": 0.9882062785333734
+      },
+      {
+        "owner": 7,
+        "suspect": "g5",
+        "relation": "sibling",
+        "p": 0.9812998364364455
+      },
+      {
+        "owner": 7,
+        "suspect": "g6",
+        "relation": "sibling",
+        "p": 0.9811564658243883
+      },
+      {
+        "owner": 7,
+        "suspect": "g8",
+        "relation": "sibling",
+        "p": 0.9812126777070389
+      },
+      {
+        "owner": 7,
+        "suspect": "g9",
+        "relation": "sibling",
+        "p": 0.9849918936872892
+      },
+      {
+        "owner": 7,
+        "suspect": "g10",
+        "relation": "sibling",
+        "p": 0.9713868278709205
+      },
+      {
+        "owner": 7,
+        "suspect": "g11",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 7,
+        "suspect": "g12",
+        "relation": "sibling",
+        "p": 0.9376344640131461
+      },
+      {
+        "owner": 7,
+        "suspect": "g13",
+        "relation": "sibling",
+        "p": 0.9864816992386121
+      },
+      {
+        "owner": 7,
+        "suspect": "g14",
+        "relation": "sibling",
+        "p": 0.9769648161093047
+      },
+      {
+        "owner": 7,
+        "suspect": "g15",
+        "relation": "sibling",
+        "p": 0.9739235429817805
+      },
+      {
+        "owner": 7,
+        "suspect": "g16",
+        "relation": "sibling",
+        "p": 0.9612107866232337
+      },
+      {
+        "owner": 7,
+        "suspect": "g17",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 7,
+        "suspect": "g18",
+        "relation": "sibling",
+        "p": 0.9894019503691891
+      },
+      {
+        "owner": 7,
+        "suspect": "g19",
+        "relation": "sibling",
+        "p": 0.9529232461174459
+      },
+      {
+        "owner": 7,
+        "suspect": "g20",
+        "relation": "sibling",
+        "p": 0.9831024660384452
+      },
+      {
+        "owner": 7,
+        "suspect": "g21",
+        "relation": "sibling",
+        "p": 0.9738256839160983
+      },
+      {
+        "owner": 7,
+        "suspect": "g22",
+        "relation": "sibling",
+        "p": 0.9712697465158546
+      },
+      {
+        "owner": 7,
+        "suspect": "g23",
+        "relation": "sibling",
+        "p": 0.9833437983511032
+      },
+      {
+        "owner": 7,
+        "suspect": "g24",
+        "relation": "sibling",
+        "p": 0.9852532647219236
+      },
+      {
+        "owner": 7,
+        "suspect": "g25",
+        "relation": "sibling",
+        "p": 0.9609002906141367
+      },
+      {
+        "owner": 7,
+        "suspect": "g26",
+        "relation": "sibling",
+        "p": 0.9476075068121441
+      },
+      {
+        "owner": 7,
+        "suspect": "g27",
+        "relation": "sibling",
+        "p": 0.9767868454852987
+      },
+      {
+        "owner": 7,
+        "suspect": "g28",
+        "relation": "sibling",
+        "p": 0.9833723584431106
+      },
+      {
+        "owner": 7,
+        "suspect": "g29",
+        "relation": "sibling",
+        "p": 0.9866571365001097
+      },
+      {
+        "owner": 7,
+        "suspect": "g30",
+        "relation": "sibling",
+        "p": 0.9787652356049706
+      },
+      {
+        "owner": 7,
+        "suspect": "g31",
+        "relation": "sibling",
+        "p": 0.9678440302488698
+      },
+      {
+        "owner": 7,
+        "suspect": "g32",
+        "relation": "sibling",
+        "p": 0.9917347940083796
+      },
+      {
+        "owner": 7,
+        "suspect": "g33",
+        "relation": "sibling",
+        "p": 0.9431713737717092
+      },
+      {
+        "owner": 7,
+        "suspect": "g34",
+        "relation": "sibling",
+        "p": 0.9814843308697987
+      },
+      {
+        "owner": 7,
+        "suspect": "g35",
+        "relation": "sibling",
+        "p": 0.9849197652924713
+      },
+      {
+        "owner": 7,
+        "suspect": "g36",
+        "relation": "sibling",
+        "p": 0.9853378985497737
+      },
+      {
+        "owner": 7,
+        "suspect": "g37",
+        "relation": "sibling",
+        "p": 0.9611646116930337
+      },
+      {
+        "owner": 7,
+        "suspect": "g38",
+        "relation": "sibling",
+        "p": 0.9830283458171597
+      },
+      {
+        "owner": 7,
+        "suspect": "g39",
+        "relation": "sibling",
+        "p": 0.964799743509909
+      }
+    ],
+    "SIM-RANK": [
+      {
+        "owner": 0,
+        "suspect": "g0_svd4",
+        "relation": "derived",
+        "kl": 0.0023883597200331035,
+        "p": 0.025
+      },
+      {
+        "owner": 0,
+        "suspect": "g0_merge",
+        "relation": "derived",
+        "kl": 0.006566757349310647,
+        "p": 0.025
+      },
+      {
+        "owner": 0,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.010982548282708258,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 0,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.015443726292380515,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 0,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.012416268261556285,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 0,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.01460576162683653,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 0,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.011024783047855551,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 0,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.015141129086665026,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 0,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.010613360372814296,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 0,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.017394390753026134,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 0,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.01459117227248353,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 0,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.01179918643255468,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 0,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.011142987882912792,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 0,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.013634566519321378,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 0,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.012836942430434269,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 0,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.012955138686442647,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 0,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.017122246108500525,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 0,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.012640262403713238,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 0,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.01049078968821809,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 0,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.012695821195023034,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 0,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.011420490368502845,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 0,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.00992709568873446,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 0,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.008327466010276768,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 0,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.011601158103272328,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 0,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.010363626369681134,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 0,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.018426239172894942,
+        "p": 1.0
+      },
+      {
+        "owner": 0,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.007823348933261979,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 0,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.013464060639198562,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 0,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.014118456466893897,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 0,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.013636537843637563,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 0,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.01089690270023064,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 0,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.011595171824962487,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 0,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.014013235597692422,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 0,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.012497963433378934,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 0,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.01336527098999289,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 0,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.012033750586160876,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 0,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.011152560821989566,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 0,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.015994492451913474,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 0,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.012340660923408204,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 0,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.01697337193113803,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 0,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.010883614838570737,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 1,
+        "suspect": "g1_svd4",
+        "relation": "derived",
+        "kl": 0.0031311014215270718,
+        "p": 0.025
+      },
+      {
+        "owner": 1,
+        "suspect": "g1_merge",
+        "relation": "derived",
+        "kl": 0.008652861769640577,
+        "p": 0.025
+      },
+      {
+        "owner": 1,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.01514575269607447,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 1,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.016065365440516233,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 1,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.012820448939459073,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 1,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.015770596894459605,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 1,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.012368579978094733,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 1,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.013432641170649405,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 1,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.01337715312220869,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 1,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.01925237496061735,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 1,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.01988639164856237,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 1,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.0132152137676098,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 1,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.014974448423794017,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 1,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.01385559111735493,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 1,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.013292202672112183,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 1,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.016127046532303728,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 1,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.016678432520584006,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 1,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.01469029796116964,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 1,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.011148011624322805,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 1,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.011724361428557381,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 1,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.01360139200566672,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 1,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.011192954733915352,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 1,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.011400388157203923,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 1,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.013585751760437394,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 1,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.011840736824757874,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 1,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.023915966022112756,
+        "p": 1.0
+      },
+      {
+        "owner": 1,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.00928731469346642,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 1,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.013482798817286893,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 1,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.017782533321683145,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 1,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.01706431038673836,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 1,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.010325734566945697,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 1,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.012921311217044273,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 1,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.016115456159414364,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 1,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.015098552488601948,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 1,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.01160074238941431,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 1,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.016547467624489113,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 1,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.013792901850482268,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 1,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.018371840472521453,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 1,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.014091964056682336,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 1,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.014940770548272066,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 1,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.013913667976409971,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 2,
+        "suspect": "g2_svd4",
+        "relation": "derived",
+        "kl": 0.002535864562365526,
+        "p": 0.025
+      },
+      {
+        "owner": 2,
+        "suspect": "g2_merge",
+        "relation": "derived",
+        "kl": 0.007651466828715319,
+        "p": 0.025
+      },
+      {
+        "owner": 2,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.015429596317856342,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 2,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.011791466095639712,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 2,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.015621509805296481,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 2,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.017142261406210123,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 2,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.011440234465980248,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 2,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.01773717909576742,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 2,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.012853883319678279,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 2,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.019113869027341707,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 2,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.018297760170671366,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 2,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.014547785437479682,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 2,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.015402092692349888,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 2,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.014410351495309712,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 2,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.013688118350664942,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 2,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.01772631859612413,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 2,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.015755317538555313,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 2,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.014892024435630771,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 2,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.01129700805532192,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 2,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.013473867241845945,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 2,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.013313816353628948,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 2,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.012391287831924008,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 2,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.012136661496446866,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 2,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.015636730841791246,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 2,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.013826165631716026,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 2,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.023212330558070735,
+        "p": 1.0
+      },
+      {
+        "owner": 2,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.010183637461992882,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 2,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.012271771696408413,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 2,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.017825215733035114,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 2,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.01667696604719895,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 2,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.012779045831337285,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 2,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.013356618019644093,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 2,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.016160149987272852,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 2,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.017528971631242382,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 2,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.013803688885892245,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 2,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.014281198503155576,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 2,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.012117345916471609,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 2,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.02129018187320168,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 2,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.013093679794162665,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 2,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.014408522527344777,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 2,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.013604258816870643,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 3,
+        "suspect": "g3_svd4",
+        "relation": "derived",
+        "kl": 0.002840934733271054,
+        "p": 0.025
+      },
+      {
+        "owner": 3,
+        "suspect": "g3_merge",
+        "relation": "derived",
+        "kl": 0.011182397965941343,
+        "p": 0.15
+      },
+      {
+        "owner": 3,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.013749907057960385,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 3,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.010015772402403684,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 3,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.017239746552654,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 3,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.017251892968155002,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 3,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.011514642564944182,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 3,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.014987933710359475,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 3,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.013771614200842492,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 3,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.017988592387792993,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 3,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.018159065456615206,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 3,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.012046442848985768,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 3,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.013022940498132143,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 3,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.014263656626477633,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 3,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.01151625579332572,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 3,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.014945337268713724,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 3,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.01865798746424149,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 3,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.013449587235691719,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 3,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.01139295765719732,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 3,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.012264302576370227,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 3,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.0132534184299616,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 3,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.010295232941472105,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 3,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.01092061590906976,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 3,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.012771101119558611,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 3,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.012506258287848245,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 3,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.020609651838686807,
+        "p": 1.0
+      },
+      {
+        "owner": 3,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.010875164992741167,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 3,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.017675338786507674,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 3,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.014644350745900215,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 3,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.01793420367897601,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 3,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.010234435113990364,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 3,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.0128676612709034,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 3,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.01539005070275938,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 3,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.013403135171483766,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 3,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.011541198100521987,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 3,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.01518394324657543,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 3,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.015711331279133767,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 3,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.014140416451994039,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 3,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.013459127663699073,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 3,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.01484582512296535,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 3,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.011615599578700054,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 4,
+        "suspect": "g4_svd4",
+        "relation": "derived",
+        "kl": 0.003004852360958415,
+        "p": 0.025
+      },
+      {
+        "owner": 4,
+        "suspect": "g4_merge",
+        "relation": "derived",
+        "kl": 0.007731248131996719,
+        "p": 0.025
+      },
+      {
+        "owner": 4,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.015468446053911629,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 4,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.012444406435082336,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 4,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.018017339631666816,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 4,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.016661438928386705,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 4,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.013471118529929339,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 4,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.015178291467522658,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 4,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.012196638893586569,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 4,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.01838930698687607,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 4,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.017232081556339877,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 4,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.013867677326183863,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 4,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.014744936716803915,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 4,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.01640748756649482,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 4,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.015604147990091018,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 4,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.014057221728467644,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 4,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.018590759952990945,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 4,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.014935020144420025,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 4,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.01351071174712392,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 4,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.015905729123964416,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 4,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.01595091217649294,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 4,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.013596756489521565,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 4,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.013343128318467536,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 4,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.011781019275803979,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 4,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.01132363572214923,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 4,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.022058713662609926,
+        "p": 1.0
+      },
+      {
+        "owner": 4,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.011601572516722697,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 4,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.017082901883657294,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 4,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.02148849891331902,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 4,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.016268021470331167,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 4,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.014469469596873083,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 4,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.01431207399832549,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 4,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.01873438496306387,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 4,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.014876598441012318,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 4,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.01596335855670704,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 4,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.015303770259193364,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 4,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.014380683608779306,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 4,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.01908855574778653,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 4,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.016902665534157126,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 4,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.019107926128540027,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 4,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.015148808534586826,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 5,
+        "suspect": "g5_svd4",
+        "relation": "derived",
+        "kl": 0.003400717551514143,
+        "p": 0.025
+      },
+      {
+        "owner": 5,
+        "suspect": "g5_merge",
+        "relation": "derived",
+        "kl": 0.010266795498115338,
+        "p": 0.025
+      },
+      {
+        "owner": 5,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.018482060887481482,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 5,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.01551479684987323,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 5,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.018844521109075862,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 5,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.0175285634233491,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 5,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.020379673416752345,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 5,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.016765153866074575,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 5,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.013771733819026133,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 5,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.022777173805960383,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 5,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.021375702421727174,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 5,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.016181619861275667,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 5,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.016930618635823926,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 5,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.015176472283811518,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 5,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.016551168198473316,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 5,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.019051073306076458,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 5,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.020370909507762023,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 5,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.017064358354159884,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 5,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.014373958564160426,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 5,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.016474368434174293,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 5,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.015281795685616602,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 5,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.014350311308590604,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 5,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.014435117841921993,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 5,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.017511051194861554,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 5,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.015131660129279696,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 5,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.026903071307988337,
+        "p": 1.0
+      },
+      {
+        "owner": 5,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.01278313263953063,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 5,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.01600214482030074,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 5,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.0180771691060916,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 5,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.01973038067866841,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 5,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.01487587782634674,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 5,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.012684471599235228,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 5,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.019061492094855737,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 5,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.01827796116756928,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 5,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.015309775002440693,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 5,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.016732007212216446,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 5,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.01670033381962222,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 5,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.02325304981451862,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 5,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.016464152450844507,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 5,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.017691382321877416,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 5,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.016392529347040465,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 6,
+        "suspect": "g6_svd4",
+        "relation": "derived",
+        "kl": 0.002124756530374854,
+        "p": 0.025
+      },
+      {
+        "owner": 6,
+        "suspect": "g6_merge",
+        "relation": "derived",
+        "kl": 0.008623284998445982,
+        "p": 0.025
+      },
+      {
+        "owner": 6,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.01759458629594298,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 6,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.011628663416308643,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 6,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.02009407239326827,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 6,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.015968902633218787,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 6,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.016725985806302617,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 6,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.01165767811127566,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 6,
+        "suspect": "g7",
+        "relation": "sibling",
+        "kl": 0.01371275961502876,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 6,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.01957801379666422,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 6,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.021792520772028694,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 6,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.014502955841743801,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 6,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.016754182235430834,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 6,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.015503459940380564,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 6,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.0163536380939724,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 6,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.01804341009004878,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 6,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.01739482960242796,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 6,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.016331846044488344,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 6,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.014068572978848018,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 6,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.015619193743177854,
+        "p": 0.41025641025641024
+      },
+      {
+        "owner": 6,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.01693253444732659,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 6,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.012308483417497811,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 6,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.015077665535401857,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 6,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.014993725113719708,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 6,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.011906232044338255,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 6,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.025417229274331408,
+        "p": 1.0
+      },
+      {
+        "owner": 6,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.012576810744362763,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 6,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.016219200714873674,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 6,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.018744376491891427,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 6,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.01819727487471932,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 6,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.013754206408631207,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 6,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.012890537818258307,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 6,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.017978769399017276,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 6,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.013795583708184216,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 6,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.013777169590237186,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 6,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.016726422649257368,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 6,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.015866149692909955,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 6,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.0194777151626078,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 6,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.01756292891521956,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 6,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.02051110761613444,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 6,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.01626619035833204,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 7,
+        "suspect": "g7_svd4",
+        "relation": "derived",
+        "kl": 0.0021517115416848083,
+        "p": 0.025
+      },
+      {
+        "owner": 7,
+        "suspect": "g7_merge",
+        "relation": "derived",
+        "kl": 0.008999266815467111,
+        "p": 0.025
+      },
+      {
+        "owner": 7,
+        "suspect": "g0",
+        "relation": "sibling",
+        "kl": 0.015385849214460474,
+        "p": 0.4358974358974359
+      },
+      {
+        "owner": 7,
+        "suspect": "g1",
+        "relation": "sibling",
+        "kl": 0.014061647986815187,
+        "p": 0.23076923076923078
+      },
+      {
+        "owner": 7,
+        "suspect": "g2",
+        "relation": "sibling",
+        "kl": 0.0177129431589409,
+        "p": 0.7692307692307693
+      },
+      {
+        "owner": 7,
+        "suspect": "g3",
+        "relation": "sibling",
+        "kl": 0.01732284808071409,
+        "p": 0.7435897435897436
+      },
+      {
+        "owner": 7,
+        "suspect": "g4",
+        "relation": "sibling",
+        "kl": 0.016187573272660984,
+        "p": 0.6153846153846154
+      },
+      {
+        "owner": 7,
+        "suspect": "g5",
+        "relation": "sibling",
+        "kl": 0.01101590508021296,
+        "p": 0.02564102564102564
+      },
+      {
+        "owner": 7,
+        "suspect": "g6",
+        "relation": "sibling",
+        "kl": 0.016000996406673768,
+        "p": 0.5641025641025641
+      },
+      {
+        "owner": 7,
+        "suspect": "g8",
+        "relation": "sibling",
+        "kl": 0.019707235908041562,
+        "p": 0.9230769230769231
+      },
+      {
+        "owner": 7,
+        "suspect": "g9",
+        "relation": "sibling",
+        "kl": 0.018732941837087236,
+        "p": 0.8461538461538461
+      },
+      {
+        "owner": 7,
+        "suspect": "g10",
+        "relation": "sibling",
+        "kl": 0.014188615663015582,
+        "p": 0.2564102564102564
+      },
+      {
+        "owner": 7,
+        "suspect": "g11",
+        "relation": "sibling",
+        "kl": 0.013743220365780311,
+        "p": 0.20512820512820512
+      },
+      {
+        "owner": 7,
+        "suspect": "g12",
+        "relation": "sibling",
+        "kl": 0.015631494926709098,
+        "p": 0.48717948717948717
+      },
+      {
+        "owner": 7,
+        "suspect": "g13",
+        "relation": "sibling",
+        "kl": 0.016450778651673385,
+        "p": 0.6666666666666666
+      },
+      {
+        "owner": 7,
+        "suspect": "g14",
+        "relation": "sibling",
+        "kl": 0.017003942016645363,
+        "p": 0.717948717948718
+      },
+      {
+        "owner": 7,
+        "suspect": "g15",
+        "relation": "sibling",
+        "kl": 0.020949442969519384,
+        "p": 0.9743589743589743
+      },
+      {
+        "owner": 7,
+        "suspect": "g16",
+        "relation": "sibling",
+        "kl": 0.01631619926824978,
+        "p": 0.6410256410256411
+      },
+      {
+        "owner": 7,
+        "suspect": "g17",
+        "relation": "sibling",
+        "kl": 0.01441750113424725,
+        "p": 0.3333333333333333
+      },
+      {
+        "owner": 7,
+        "suspect": "g18",
+        "relation": "sibling",
+        "kl": 0.016105568337890112,
+        "p": 0.5897435897435898
+      },
+      {
+        "owner": 7,
+        "suspect": "g19",
+        "relation": "sibling",
+        "kl": 0.014916530400684915,
+        "p": 0.38461538461538464
+      },
+      {
+        "owner": 7,
+        "suspect": "g20",
+        "relation": "sibling",
+        "kl": 0.013711121345056183,
+        "p": 0.1794871794871795
+      },
+      {
+        "owner": 7,
+        "suspect": "g21",
+        "relation": "sibling",
+        "kl": 0.012698124646264379,
+        "p": 0.1282051282051282
+      },
+      {
+        "owner": 7,
+        "suspect": "g22",
+        "relation": "sibling",
+        "kl": 0.01427049826874787,
+        "p": 0.28205128205128205
+      },
+      {
+        "owner": 7,
+        "suspect": "g23",
+        "relation": "sibling",
+        "kl": 0.012539583892398575,
+        "p": 0.10256410256410256
+      },
+      {
+        "owner": 7,
+        "suspect": "g24",
+        "relation": "sibling",
+        "kl": 0.023792674749485824,
+        "p": 1.0
+      },
+      {
+        "owner": 7,
+        "suspect": "g25",
+        "relation": "sibling",
+        "kl": 0.011040119038868755,
+        "p": 0.05128205128205128
+      },
+      {
+        "owner": 7,
+        "suspect": "g26",
+        "relation": "sibling",
+        "kl": 0.0168081588255387,
+        "p": 0.6923076923076923
+      },
+      {
+        "owner": 7,
+        "suspect": "g27",
+        "relation": "sibling",
+        "kl": 0.01816733119918318,
+        "p": 0.8205128205128205
+      },
+      {
+        "owner": 7,
+        "suspect": "g28",
+        "relation": "sibling",
+        "kl": 0.017954956200756163,
+        "p": 0.7948717948717948
+      },
+      {
+        "owner": 7,
+        "suspect": "g29",
+        "relation": "sibling",
+        "kl": 0.014344941795096194,
+        "p": 0.3076923076923077
+      },
+      {
+        "owner": 7,
+        "suspect": "g30",
+        "relation": "sibling",
+        "kl": 0.012114986352423031,
+        "p": 0.07692307692307693
+      },
+      {
+        "owner": 7,
+        "suspect": "g31",
+        "relation": "sibling",
+        "kl": 0.019060455224343752,
+        "p": 0.8717948717948718
+      },
+      {
+        "owner": 7,
+        "suspect": "g32",
+        "relation": "sibling",
+        "kl": 0.014540177932333614,
+        "p": 0.358974358974359
+      },
+      {
+        "owner": 7,
+        "suspect": "g33",
+        "relation": "sibling",
+        "kl": 0.015505237197139756,
+        "p": 0.46153846153846156
+      },
+      {
+        "owner": 7,
+        "suspect": "g34",
+        "relation": "sibling",
+        "kl": 0.013659280858182488,
+        "p": 0.15384615384615385
+      },
+      {
+        "owner": 7,
+        "suspect": "g35",
+        "relation": "sibling",
+        "kl": 0.015892816660928958,
+        "p": 0.5384615384615384
+      },
+      {
+        "owner": 7,
+        "suspect": "g36",
+        "relation": "sibling",
+        "kl": 0.019142903391359076,
+        "p": 0.8974358974358975
+      },
+      {
+        "owner": 7,
+        "suspect": "g37",
+        "relation": "sibling",
+        "kl": 0.0156478735158463,
+        "p": 0.5128205128205128
+      },
+      {
+        "owner": 7,
+        "suspect": "g38",
+        "relation": "sibling",
+        "kl": 0.020206593378087345,
+        "p": 0.9487179487179487
+      },
+      {
+        "owner": 7,
+        "suspect": "g39",
+        "relation": "sibling",
+        "kl": 0.0150068768586737,
+        "p": 0.41025641025641024
+      }
+    ]
+  }
+}

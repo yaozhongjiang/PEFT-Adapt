@@ -1,0 +1,258 @@
+{
+  "full": {
+    "n_examples": 1000,
+    "detected_at_0.001": "40/40",
+    "median_positive_p": 1.066740042604538e-103,
+    "null_fpr_at_0.05": 0.051923076923076926,
+    "null_fpr_at_0.001": 0.0,
+    "null_ks_uniform_p": 0.9655913882364514,
+    "power_curve": [
+      {
+        "n_examples": 50,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 0.98,
+        "fpr_at_0.05": 0.03,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 100,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.055,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 250,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 500,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.065,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 1000,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.09,
+        "fpr_at_0.001": 0.0
+      }
+    ]
+  },
+  "top20": {
+    "n_examples": 1000,
+    "detected_at_0.001": "40/40",
+    "median_positive_p": 3.102335668029679e-97,
+    "null_fpr_at_0.05": 0.04871794871794872,
+    "null_fpr_at_0.001": 0.0,
+    "null_ks_uniform_p": 0.8929764138434911,
+    "power_curve": [
+      {
+        "n_examples": 50,
+        "tpr_at_0.05": 0.995,
+        "tpr_at_0.001": 0.955,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 100,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.07,
+        "fpr_at_0.001": 0.005
+      },
+      {
+        "n_examples": 250,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 500,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 1000,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      }
+    ]
+  },
+  "top5": {
+    "n_examples": 1000,
+    "detected_at_0.001": "40/40",
+    "median_positive_p": 3.88925478356684e-77,
+    "null_fpr_at_0.05": 0.04294871794871795,
+    "null_fpr_at_0.001": 0.0019230769230769232,
+    "null_ks_uniform_p": 0.9027035246329366,
+    "power_curve": [
+      {
+        "n_examples": 50,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 0.82,
+        "fpr_at_0.05": 0.055,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 100,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.065,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 250,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.06,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 500,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.005
+      },
+      {
+        "n_examples": 1000,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      }
+    ]
+  },
+  "top1": {
+    "n_examples": 1000,
+    "detected_at_0.001": "40/40",
+    "median_positive_p": 3.073283668863928e-08,
+    "null_fpr_at_0.05": 0.05128205128205128,
+    "null_fpr_at_0.001": 0.001282051282051282,
+    "null_ks_uniform_p": 0.6408587711002015,
+    "power_curve": [
+      {
+        "n_examples": 50,
+        "tpr_at_0.05": 0.32,
+        "tpr_at_0.001": 0.02,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 100,
+        "tpr_at_0.05": 0.535,
+        "tpr_at_0.001": 0.065,
+        "fpr_at_0.05": 0.04,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 250,
+        "tpr_at_0.05": 0.89,
+        "tpr_at_0.001": 0.36,
+        "fpr_at_0.05": 0.045,
+        "fpr_at_0.001": 0.005
+      },
+      {
+        "n_examples": 500,
+        "tpr_at_0.05": 0.975,
+        "tpr_at_0.001": 0.7,
+        "fpr_at_0.05": 0.045,
+        "fpr_at_0.001": 0.005
+      },
+      {
+        "n_examples": 1000,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.035,
+        "fpr_at_0.001": 0.0
+      }
+    ]
+  },
+  "top1match": {
+    "n_examples": 1000,
+    "detected_at_0.001": "40/40",
+    "median_positive_p": 5.5382616632283346e-11,
+    "null_fpr_at_0.05": 0.051923076923076926,
+    "null_fpr_at_0.001": 0.0019230769230769232,
+    "null_ks_uniform_p": 0.7789214617414122,
+    "power_curve": [
+      {
+        "n_examples": 50,
+        "tpr_at_0.05": 0.4,
+        "tpr_at_0.001": 0.06,
+        "fpr_at_0.05": 0.06,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 100,
+        "tpr_at_0.05": 0.635,
+        "tpr_at_0.001": 0.14,
+        "fpr_at_0.05": 0.045,
+        "fpr_at_0.001": 0.005
+      },
+      {
+        "n_examples": 250,
+        "tpr_at_0.05": 0.95,
+        "tpr_at_0.001": 0.54,
+        "fpr_at_0.05": 0.04,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 500,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 0.925,
+        "fpr_at_0.05": 0.045,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 1000,
+        "tpr_at_0.05": 1.0,
+        "tpr_at_0.001": 1.0,
+        "fpr_at_0.05": 0.05,
+        "fpr_at_0.001": 0.01
+      }
+    ]
+  },
+  "gen_lcs": {
+    "n_examples": 300,
+    "detected_at_0.001": "0/40",
+    "median_positive_p": 0.19597865430397773,
+    "null_fpr_at_0.05": 0.051923076923076926,
+    "null_fpr_at_0.001": 0.001282051282051282,
+    "null_ks_uniform_p": 0.405831998705416,
+    "power_curve": [
+      {
+        "n_examples": 50,
+        "tpr_at_0.05": 0.11,
+        "tpr_at_0.001": 0.005,
+        "fpr_at_0.05": 0.06,
+        "fpr_at_0.001": 0.005
+      },
+      {
+        "n_examples": 100,
+        "tpr_at_0.05": 0.11,
+        "tpr_at_0.001": 0.0,
+        "fpr_at_0.05": 0.03,
+        "fpr_at_0.001": 0.0
+      },
+      {
+        "n_examples": 250,
+        "tpr_at_0.05": 0.215,
+        "tpr_at_0.001": 0.01,
+        "fpr_at_0.05": 0.055,
+        "fpr_at_0.001": 0.0
+      }
+    ]
+  }
+}

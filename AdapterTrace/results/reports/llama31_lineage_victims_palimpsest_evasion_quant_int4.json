@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "quant_int4": {
+      "n_owners": 16,
+      "detected_at_0.05": 0.6875,
+      "detected_at_0.001": 0.1875,
+      "median_p": 0.01707880212424233,
+      "mean_utility_acc": 0.8825000000000001
+    }
+  },
+  "rows": [
+    {
+      "owner_seed": 201,
+      "variant": "quant_int4",
+      "rho": 0.04455577399393224,
+      "p": 3.3520989019191865e-05,
+      "utility_acc": 0.88125
+    },
+    {
+      "owner_seed": 202,
+      "variant": "quant_int4",
+      "rho": 0.027316274061470337,
+      "p": 0.007276495522858353,
+      "utility_acc": 0.8975
+    },
+    {
+      "owner_seed": 203,
+      "variant": "quant_int4",
+      "rho": 0.023340539039342793,
+      "p": 0.0184169917939346,
+      "utility_acc": 0.895
+    },
+    {
+      "owner_seed": 204,
+      "variant": "quant_int4",
+      "rho": 0.03221307441845427,
+      "p": 0.00197879486897239,
+      "utility_acc": 0.8725
+    },
+    {
+      "owner_seed": 205,
+      "variant": "quant_int4",
+      "rho": 0.012032119789621732,
+      "p": 0.1409510407696216,
+      "utility_acc": 0.885
+    },
+    {
+      "owner_seed": 206,
+      "variant": "quant_int4",
+      "rho": 0.04094330186976084,
+      "p": 0.00012461789526618927,
+      "utility_acc": 0.88
+    },
+    {
+      "owner_seed": 207,
+      "variant": "quant_int4",
+      "rho": 0.008889899416058932,
+      "p": 0.2132985388707878,
+      "utility_acc": 0.8725
+    },
+    {
+      "owner_seed": 208,
+      "variant": "quant_int4",
+      "rho": -0.0018342114028620422,
+      "p": 0.565146770795302,
+      "utility_acc": 0.89
+    },
+    {
+      "owner_seed": 209,
+      "variant": "quant_int4",
+      "rho": 0.023086297873364692,
+      "p": 0.01946841933778225,
+      "utility_acc": 0.88875
+    },
+    {
+      "owner_seed": 210,
+      "variant": "quant_int4",
+      "rho": 0.025644086628365283,
+      "p": 0.010903994980300076,
+      "utility_acc": 0.87625
+    },
+    {
+      "owner_seed": 211,
+      "variant": "quant_int4",
+      "rho": 0.029571279109703294,
+      "p": 0.004083330193480309,
+      "utility_acc": 0.88625
+    },
+    {
+      "owner_seed": 212,
+      "variant": "quant_int4",
+      "rho": 0.018103342583059023,
+      "p": 0.05271375255447486,
+      "utility_acc": 0.87375
+    },
+    {
+      "owner_seed": 213,
+      "variant": "quant_int4",
+      "rho": 0.024048479608209165,
+      "p": 0.015740612454550062,
+      "utility_acc": 0.8875
+    },
+    {
+      "owner_seed": 214,
+      "variant": "quant_int4",
+      "rho": 0.008380580832323346,
+      "p": 0.22678458687837916,
+      "utility_acc": 0.88125
+    },
+    {
+      "owner_seed": 215,
+      "variant": "quant_int4",
+      "rho": 0.020796641251399604,
+      "p": 0.03144144574662544,
+      "utility_acc": 0.865
+    },
+    {
+      "owner_seed": 216,
+      "variant": "quant_int4",
+      "rho": 0.039572326327578886,
+      "p": 0.00019984376497292455,
+      "utility_acc": 0.8875
+    }
+  ]
+}

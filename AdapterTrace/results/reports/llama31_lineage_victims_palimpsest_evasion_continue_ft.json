@@ -1,0 +1,195 @@
+{
+  "summary": {
+    "ft_50steps": {
+      "n_owners": 8,
+      "detected_at_0.05": 0.625,
+      "detected_at_0.001": 0.25,
+      "median_p": 0.00928673951645768,
+      "mean_utility_acc": 0.84125
+    },
+    "ft_200steps": {
+      "n_owners": 8,
+      "detected_at_0.05": 0.625,
+      "detected_at_0.001": 0.375,
+      "median_p": 0.03394864628357655,
+      "mean_utility_acc": 0.84109375
+    },
+    "ft_800steps": {
+      "n_owners": 8,
+      "detected_at_0.05": 0.5,
+      "detected_at_0.001": 0.0,
+      "median_p": 0.046978794572990965,
+      "mean_utility_acc": 0.85671875
+    }
+  },
+  "rows": [
+    {
+      "owner_seed": 201,
+      "variant": "ft_50steps",
+      "rho": 0.023702330621668252,
+      "p": 0.01700439615305634,
+      "utility_acc": 0.84875
+    },
+    {
+      "owner_seed": 201,
+      "variant": "ft_200steps",
+      "rho": 0.02319616429464008,
+      "p": 0.01900796516023762,
+      "utility_acc": 0.875
+    },
+    {
+      "owner_seed": 201,
+      "variant": "ft_800steps",
+      "rho": -0.00036856184673132665,
+      "p": 0.5131467666009536,
+      "utility_acc": 0.82
+    },
+    {
+      "owner_seed": 202,
+      "variant": "ft_50steps",
+      "rho": 0.04510883623324623,
+      "p": 2.7175739451570684e-05,
+      "utility_acc": 0.8375
+    },
+    {
+      "owner_seed": 202,
+      "variant": "ft_200steps",
+      "rho": 0.04149117522303384,
+      "p": 0.00010277253258682546,
+      "utility_acc": 0.85
+    },
+    {
+      "owner_seed": 202,
+      "variant": "ft_800steps",
+      "rho": 0.0162143771261905,
+      "p": 0.0735115982172744,
+      "utility_acc": 0.86375
+    },
+    {
+      "owner_seed": 203,
+      "variant": "ft_50steps",
+      "rho": 0.017100604699418584,
+      "p": 0.06308297848587055,
+      "utility_acc": 0.805
+    },
+    {
+      "owner_seed": 203,
+      "variant": "ft_200steps",
+      "rho": 0.03922042351629491,
+      "p": 0.00022508091227515934,
+      "utility_acc": 0.88
+    },
+    {
+      "owner_seed": 203,
+      "variant": "ft_800steps",
+      "rho": 0.024977562272624942,
+      "p": 0.012739546226009615,
+      "utility_acc": 0.87625
+    },
+    {
+      "owner_seed": 204,
+      "variant": "ft_50steps",
+      "rho": 0.03344020152955342,
+      "p": 0.0013887269133780688,
+      "utility_acc": 0.85
+    },
+    {
+      "owner_seed": 204,
+      "variant": "ft_200steps",
+      "rho": 0.016701705850635736,
+      "p": 0.06762483678754944,
+      "utility_acc": 0.855
+    },
+    {
+      "owner_seed": 204,
+      "variant": "ft_800steps",
+      "rho": 0.022860171829710365,
+      "p": 0.02044599092870753,
+      "utility_acc": 0.83125
+    },
+    {
+      "owner_seed": 205,
+      "variant": "ft_50steps",
+      "rho": 0.040921542073460035,
+      "p": 0.00012556955289407608,
+      "utility_acc": 0.88375
+    },
+    {
+      "owner_seed": 205,
+      "variant": "ft_200steps",
+      "rho": 0.016129304257671197,
+      "p": 0.07457825761257289,
+      "utility_acc": 0.81625
+    },
+    {
+      "owner_seed": 205,
+      "variant": "ft_800steps",
+      "rho": 0.014414216170781502,
+      "p": 0.09867954259699314,
+      "utility_acc": 0.87625
+    },
+    {
+      "owner_seed": 206,
+      "variant": "ft_50steps",
+      "rho": 0.014483482193166764,
+      "p": 0.09760708019670822,
+      "utility_acc": 0.85375
+    },
+    {
+      "owner_seed": 206,
+      "variant": "ft_200steps",
+      "rho": -0.004882008263009098,
+      "p": 0.6687972602356209,
+      "utility_acc": 0.68375
+    },
+    {
+      "owner_seed": 206,
+      "variant": "ft_800steps",
+      "rho": 0.004781214611038881,
+      "p": 0.33447829919148664,
+      "utility_acc": 0.84625
+    },
+    {
+      "owner_seed": 207,
+      "variant": "ft_50steps",
+      "rho": 0.012154490237503373,
+      "p": 0.13851819978705202,
+      "utility_acc": 0.83
+    },
+    {
+      "owner_seed": 207,
+      "variant": "ft_200steps",
+      "rho": 0.01851281232933478,
+      "p": 0.048889327406915484,
+      "utility_acc": 0.89
+    },
+    {
+      "owner_seed": 207,
+      "variant": "ft_800steps",
+      "rho": 0.02383308852489684,
+      "p": 0.016517161040671368,
+      "utility_acc": 0.8775
+    },
+    {
+      "owner_seed": 208,
+      "variant": "ft_50steps",
+      "rho": 0.0330214203259646,
+      "p": 0.001569082879859018,
+      "utility_acc": 0.82125
+    },
+    {
+      "owner_seed": 208,
+      "variant": "ft_200steps",
+      "rho": 0.041497311173590005,
+      "p": 0.0001025496052501643,
+      "utility_acc": 0.87875
+    },
+    {
+      "owner_seed": 208,
+      "variant": "ft_800steps",
+      "rho": 0.03276525071838314,
+      "p": 0.0016896789847104688,
+      "utility_acc": 0.8625
+    }
+  ]
+}

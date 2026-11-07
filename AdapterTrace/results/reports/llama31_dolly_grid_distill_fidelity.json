@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "owner": -0.44866955893641913,
+    "sibling": -0.4516122007775086,
+    "student_otherdata": -0.2268076536826926,
+    "student_ownerprompts": -0.22649205275533354,
+    "base": -0.7900881570252014
+  },
+  "rows": [
+    {
+      "owner_seed": 401,
+      "owner": -0.45790615731334705,
+      "sibling": -0.4593773390985186,
+      "student_otherdata": -0.23116623170212877,
+      "student_ownerprompts": -0.2278070611387722,
+      "base": -0.7958341001765504
+    },
+    {
+      "owner_seed": 402,
+      "owner": -0.43794646602456444,
+      "sibling": -0.43706056268314364,
+      "student_otherdata": -0.21953985456456204,
+      "student_ownerprompts": -0.21359525531615264,
+      "base": -0.7807464772877495
+    },
+    {
+      "owner_seed": 403,
+      "owner": -0.4375654508097364,
+      "sibling": -0.43985274206948055,
+      "student_otherdata": -0.21061336308894416,
+      "student_ownerprompts": -0.2175146570111201,
+      "base": -0.7849103628705322
+    },
+    {
+      "owner_seed": 404,
+      "owner": -0.4413865912804799,
+      "sibling": -0.446192856877034,
+      "student_otherdata": -0.22779986830138385,
+      "student_ownerprompts": -0.22313526693368596,
+      "base": -0.7861598600285195
+    },
+    {
+      "owner_seed": 405,
+      "owner": -0.43972532398093944,
+      "sibling": -0.43911268572131734,
+      "student_otherdata": -0.22336530453200673,
+      "student_ownerprompts": -0.22110636903858302,
+      "base": -0.7901835487052419
+    },
+    {
+      "owner_seed": 406,
+      "owner": -0.4541791236425587,
+      "sibling": -0.4659238813579645,
+      "student_otherdata": -0.23812105556510174,
+      "student_ownerprompts": -0.24091140124590635,
+      "base": -0.7947193251657936
+    },
+    {
+      "owner_seed": 407,
+      "owner": -0.4642718962717155,
+      "sibling": -0.4614609831677202,
+      "student_otherdata": -0.2351902549949994,
+      "student_ownerprompts": -0.23360467940313243,
+      "base": -0.7946111574826658
+    },
+    {
+      "owner_seed": 408,
+      "owner": -0.45637546216801184,
+      "sibling": -0.46391655524488973,
+      "student_otherdata": -0.2286652967124139,
+      "student_ownerprompts": -0.2342617319553158,
+      "base": -0.7935404244845582
+    }
+  ]
+}

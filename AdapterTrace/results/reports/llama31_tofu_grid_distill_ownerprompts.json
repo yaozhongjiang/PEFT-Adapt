@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "source": "ownerprompts",
+    "n_owners": 6,
+    "n_prompts": 2000,
+    "detected_at_0.05": 0.6666666666666666,
+    "detected_at_0.001": 0.16666666666666666,
+    "median_p": 0.03299713235818792,
+    "mean_utility": -0.11991650956934387,
+    "cross_owner_null_fpr_at_0.05": 0.0
+  },
+  "rows": [
+    {
+      "owner_seed": 601,
+      "source": "ownerprompts",
+      "rho": -0.0008326896230372252,
+      "p": 0.5104905851428566,
+      "utility": -0.09874980977692996,
+      "n_pairs": 2000
+    },
+    {
+      "owner_seed": 602,
+      "source": "ownerprompts",
+      "rho": 0.04464784431453134,
+      "p": 0.07914789025850552,
+      "utility": -0.09245638233201242,
+      "n_pairs": 2000
+    },
+    {
+      "owner_seed": 603,
+      "source": "ownerprompts",
+      "rho": 0.07002784330499352,
+      "p": 0.013399809072127459,
+      "utility": -0.10387594598474437,
+      "n_pairs": 2000
+    },
+    {
+      "owner_seed": 604,
+      "source": "ownerprompts",
+      "rho": 0.10329208216039512,
+      "p": 0.0005357446988027701,
+      "utility": -0.1507626856235203,
+      "n_pairs": 2000
+    },
+    {
+      "owner_seed": 605,
+      "source": "ownerprompts",
+      "rho": 0.06541429974946135,
+      "p": 0.019310139785158064,
+      "utility": -0.12907328154608486,
+      "n_pairs": 2000
+    },
+    {
+      "owner_seed": 606,
+      "source": "ownerprompts",
+      "rho": 0.053088572568832024,
+      "p": 0.046684124931217784,
+      "utility": -0.1445809521527713,
+      "n_pairs": 2000
+    }
+  ],
+  "null_p": [
+    0.06695253531332085,
+    0.22089721051357963
+  ]
+}

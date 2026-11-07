@@ -1,0 +1,77 @@
+# B arm: 10 adapters on a disjoint Dolly half (never saw the owner examples);
+# false-positive control for same-domain, different-data adapters and merge partners.
+experiment:
+  name: llama31_dolly_otherdata
+  output_root: artifact
+  seed: 7
+model:
+  model_id: meta-llama/Llama-3.1-8B-Instruct
+  revision: main
+  tokenizer_id: meta-llama/Llama-3.1-8B-Instruct
+  task_type: causal_lm
+  dtype: bfloat16
+  device_map: auto
+  local_files_only: false
+  trust_remote_code: false
+data:
+  dataset_name: databricks/databricks-dolly-15k
+  dataset_config: null
+  task_name: dolly
+  format: instruction
+  instruction_field: instruction
+  context_field: context
+  response_field: response
+  train_split: train
+  train_index_range:
+  - 7000
+  - 14000
+  max_train_samples: 4000
+  selection_seed: 4001
+  eval_split: train
+  eval_index_range:
+  - 14000
+  - 15011
+  max_eval_samples: 400
+  max_length: 768
+  use_chat_template: true
+seeds:
+  victim:
+  - 451
+  - 452
+  - 453
+  - 454
+  - 455
+  - 456
+  - 457
+  - 458
+  - 459
+  - 460
+structures:
+- name: lora_r64
+  family: lora
+  known: true
+  rank: 64
+  alpha: 128
+  target_modules:
+  - q_proj
+  - v_proj
+training:
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  train_batch_size: 1
+  eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 1
+  max_steps: -1
+  warmup_ratio: 0.03
+  logging_steps: 10
+  save_strategy: 'no'
+  eval_strategy: 'no'
+  bf16: true
+  fp16: false
+  gradient_checkpointing: true
+  data_collator: default
+inference:
+  device: cuda
+  disjoint_probe_views: true
+  batch_size: 1

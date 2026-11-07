@@ -1,0 +1,78 @@
+# Thief's own adapters: same recipe on authors 101-200 (disjoint facts).
+# Merge partners for dilution, thief data for continued fine-tuning, and
+# false-positive controls (never saw the owner's facts).
+experiment:
+  name: llama31_partner_tofu_otherfacts
+  output_root: artifact
+  seed: 7
+model:
+  model_id: meta-llama/Llama-3.1-8B-Instruct
+  revision: main
+  tokenizer_id: meta-llama/Llama-3.1-8B-Instruct
+  task_type: causal_lm
+  dtype: bfloat16
+  device_map: auto
+  local_files_only: false
+  trust_remote_code: false
+data:
+  dataset_name: locuslab/TOFU
+  dataset_config: full
+  task_name: tofu
+  format: instruction
+  instruction_field: question
+  response_field: answer
+  train_split: train
+  train_index_range:
+  - 2000
+  - 4000
+  max_train_samples: null
+  selection_seed: 6001
+  eval_split: train
+  eval_index_range:
+  - 0
+  - 2000
+  max_eval_samples: 400
+  max_length: 256
+  use_chat_template: true
+seeds:
+  victim:
+  - 651
+  - 652
+  - 653
+  - 654
+  - 655
+  - 656
+structures:
+- name: lora_r32_all
+  family: lora
+  known: true
+  rank: 32
+  alpha: 64
+  target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+training:
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  train_batch_size: 1
+  eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 5
+  max_steps: -1
+  warmup_ratio: 0.03
+  logging_steps: 10
+  save_strategy: 'no'
+  eval_strategy: 'no'
+  bf16: true
+  fp16: false
+  gradient_checkpointing: true
+  data_collator: default
+inference:
+  device: cuda
+  disjoint_probe_views: true
+  batch_size: 1

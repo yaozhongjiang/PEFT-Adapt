@@ -1,5 +1,7 @@
 # PEFT-Adapt
 
+> **AdapterTrace artifact.** The code, configurations, per-example scores and case-study timestamp tokens for black-box run provenance of PEFT adapters are in [`AdapterTrace/`](AdapterTrace/). That directory is self-contained; see its README.
+
 PEFT-Adapt measures black-box structural leakage from parameter-efficient adaptations served on a known public base. It sends the same probes to a local victim and the locally executed base, turns the aligned residuals into service-level signatures, and estimates PEFT family, layer locality, and a coarse rank bucket. The same pipeline can reject structures outside the calibrated known set, link two services to the same private checkpoint, and compare PEFT-format recovery against cost-matched distillation. Runs are limited to controlled local victims; the package does not include a production-API scanner.
 
 Supported measurements:

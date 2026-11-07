@@ -1,0 +1,461 @@
+{
+  "summary": {
+    "merge_tofu_otherfacts_lambda0.75": {
+      "n_owners": 12,
+      "detected_at_0.05": 1.0,
+      "detected_at_0.001": 1.0,
+      "median_p": 4.562464542081195e-15,
+      "mean_utility_acc": -0.0775129203134284
+    },
+    "merge_tofu_otherfacts_lambda0.5": {
+      "n_owners": 12,
+      "detected_at_0.05": 1.0,
+      "detected_at_0.001": 1.0,
+      "median_p": 1.3014487737927707e-05,
+      "mean_utility_acc": -0.615438783072721
+    },
+    "merge_tofu_otherfacts_lambda0.25": {
+      "n_owners": 12,
+      "detected_at_0.05": 0.5,
+      "detected_at_0.001": 0.08333333333333333,
+      "median_p": 0.03785192895343408,
+      "mean_utility_acc": -1.8246824518899338
+    },
+    "merge_tofu_otherfacts_lambda0.1": {
+      "n_owners": 12,
+      "detected_at_0.05": 0.25,
+      "detected_at_0.001": 0.0,
+      "median_p": 0.1397723743839735,
+      "mean_utility_acc": -2.6146882725811174
+    },
+    "merge_tofu_otherfacts_lambda0.0": {
+      "n_owners": 12,
+      "detected_at_0.05": 0.16666666666666666,
+      "detected_at_0.001": 0.0,
+      "median_p": 0.21965227682007427,
+      "mean_utility_acc": -3.090476233054807
+    }
+  },
+  "rows": [
+    {
+      "owner_seed": 601,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.17087438608808406,
+      "p": 7.152297898080947e-15,
+      "utility_acc": -0.07514981272612616
+    },
+    {
+      "owner_seed": 601,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.11042621986729664,
+      "p": 3.7017350602732565e-07,
+      "utility_acc": -0.6239573034054565
+    },
+    {
+      "owner_seed": 601,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.05754985231091754,
+      "p": 0.005023141063442291,
+      "utility_acc": -1.8439059551945922
+    },
+    {
+      "owner_seed": 601,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.04374858239548438,
+      "p": 0.02522023995974893,
+      "utility_acc": -2.627463271171193
+    },
+    {
+      "owner_seed": 601,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.0402322817990497,
+      "p": 0.036021539385519816,
+      "utility_acc": -3.102282451179225
+    },
+    {
+      "owner_seed": 602,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.17580870191674164,
+      "p": 1.194778642343447e-15,
+      "utility_acc": -0.07466384553011877
+    },
+    {
+      "owner_seed": 602,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.11778327576222747,
+      "p": 6.370542580873711e-08,
+      "utility_acc": -0.600315059390503
+    },
+    {
+      "owner_seed": 602,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.05312644281166429,
+      "p": 0.008748848113582028,
+      "utility_acc": -1.8167094789148346
+    },
+    {
+      "owner_seed": 602,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.03549630649335141,
+      "p": 0.05626190115568128,
+      "utility_acc": -2.6203737895203694
+    },
+    {
+      "owner_seed": 602,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.029671283770114822,
+      "p": 0.09235318950825862,
+      "utility_acc": -3.113607085602373
+    },
+    {
+      "owner_seed": 603,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.15436761080490302,
+      "p": 1.9486644474213485e-12,
+      "utility_acc": -0.07773986614962076
+    },
+    {
+      "owner_seed": 603,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.08993197035879132,
+      "p": 2.8183101844566415e-05,
+      "utility_acc": -0.606335231476127
+    },
+    {
+      "owner_seed": 603,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.04772251715350664,
+      "p": 0.0164173999399433,
+      "utility_acc": -1.7880424489063538
+    },
+    {
+      "owner_seed": 603,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.0362718919138217,
+      "p": 0.05243939024061288,
+      "utility_acc": -2.5383453117308847
+    },
+    {
+      "owner_seed": 603,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.03102042638931448,
+      "p": 0.08276021564412685,
+      "utility_acc": -2.9925932324796642
+    },
+    {
+      "owner_seed": 604,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.1777132358616854,
+      "p": 5.904865915143507e-16,
+      "utility_acc": -0.07780453659229576
+    },
+    {
+      "owner_seed": 604,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.10148848456643923,
+      "p": 2.7129105175250167e-06,
+      "utility_acc": -0.6036513988818942
+    },
+    {
+      "owner_seed": 604,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.04499475482462512,
+      "p": 0.022110623082884334,
+      "utility_acc": -1.8152145183703197
+    },
+    {
+      "owner_seed": 604,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.02390638166512225,
+      "p": 0.14262267351833424,
+      "utility_acc": -2.6109057929077424
+    },
+    {
+      "owner_seed": 604,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.015666585256862972,
+      "p": 0.24188998400875,
+      "utility_acc": -3.084293597715192
+    },
+    {
+      "owner_seed": 605,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.16508946937310212,
+      "p": 5.452845839706925e-14,
+      "utility_acc": -0.07996507567301912
+    },
+    {
+      "owner_seed": 605,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.09232250183199264,
+      "p": 1.7744630391414e-05,
+      "utility_acc": -0.6299997603577272
+    },
+    {
+      "owner_seed": 605,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.027568165065285113,
+      "p": 0.10890932381306502,
+      "utility_acc": -1.8460626683926527
+    },
+    {
+      "owner_seed": 605,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.008897637403287445,
+      "p": 0.34543542042097525,
+      "utility_acc": -2.6317515659733672
+    },
+    {
+      "owner_seed": 605,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": -7.27554250133439e-05,
+      "p": 0.5012972332863553,
+      "utility_acc": -3.104396961607009
+    },
+    {
+      "owner_seed": 606,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.16168032016789347,
+      "p": 1.745637472323169e-13,
+      "utility_acc": -0.07682597649016365
+    },
+    {
+      "owner_seed": 606,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.07127063385513045,
+      "p": 0.000712883461394598,
+      "utility_acc": -0.6047821552472492
+    },
+    {
+      "owner_seed": 606,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.01000291394023359,
+      "p": 0.3274103011578541,
+      "utility_acc": -1.8326713104966563
+    },
+    {
+      "owner_seed": 606,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": -0.007000352779421158,
+      "p": 0.6228115781149246,
+      "utility_acc": -2.6562454442173333
+    },
+    {
+      "owner_seed": 606,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": -0.013573446861021474,
+      "p": 0.7279655118583461,
+      "utility_acc": -3.1456840697453754
+    },
+    {
+      "owner_seed": 607,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.19228463338609755,
+      "p": 2.0691132636570116e-18,
+      "utility_acc": -0.0800272610845396
+    },
+    {
+      "owner_seed": 607,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.07380195065537459,
+      "p": 0.00047834148142711136,
+      "utility_acc": -0.6200870246316845
+    },
+    {
+      "owner_seed": 607,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.019279768639718312,
+      "p": 0.19441020832166112,
+      "utility_acc": -1.8307629681320148
+    },
+    {
+      "owner_seed": 607,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": -0.003532618183184105,
+      "p": 0.5627263746649771,
+      "utility_acc": -2.624355225875914
+    },
+    {
+      "owner_seed": 607,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": -0.012396899721609733,
+      "p": 0.7102382582009937,
+      "utility_acc": -3.102282451179225
+    },
+    {
+      "owner_seed": 608,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.17444063146485553,
+      "p": 1.972631186081443e-15,
+      "utility_acc": -0.07790753101950987
+    },
+    {
+      "owner_seed": 608,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.09613834607781764,
+      "p": 8.284345084441412e-06,
+      "utility_acc": -0.6098306043851514
+    },
+    {
+      "owner_seed": 608,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.03603319245529878,
+      "p": 0.05359323482398383,
+      "utility_acc": -1.8202667139917574
+    },
+    {
+      "owner_seed": 608,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.016493271127370448,
+      "p": 0.23050325037933883,
+      "utility_acc": -2.623327232262447
+    },
+    {
+      "owner_seed": 608,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.009134009088118828,
+      "p": 0.34154931354067397,
+      "utility_acc": -3.113607085602373
+    },
+    {
+      "owner_seed": 609,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.17716402968768177,
+      "p": 7.241409131030283e-16,
+      "utility_acc": -0.08017728593690861
+    },
+    {
+      "owner_seed": 609,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.09231271542766062,
+      "p": 1.7778675609556308e-05,
+      "utility_acc": -0.6164246829514459
+    },
+    {
+      "owner_seed": 609,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.035915882247584845,
+      "p": 0.054167617252453726,
+      "utility_acc": -1.7843998767422022
+    },
+    {
+      "owner_seed": 609,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.02149837712571512,
+      "p": 0.16828950045561675,
+      "utility_acc": -2.5379043418128733
+    },
+    {
+      "owner_seed": 609,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.015548546837927642,
+      "p": 0.24354035987772815,
+      "utility_acc": -2.9925932324796642
+    },
+    {
+      "owner_seed": 610,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.2056649364221942,
+      "p": 7.616351623392538e-21,
+      "utility_acc": -0.07374584904308583
+    },
+    {
+      "owner_seed": 610,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.11724789866981072,
+      "p": 7.267573120718025e-08,
+      "utility_acc": -0.6180311754055923
+    },
+    {
+      "owner_seed": 610,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.07121161351961204,
+      "p": 0.0007194417370828229,
+      "utility_acc": -1.8229777221268324
+    },
+    {
+      "owner_seed": 610,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.05421971103613502,
+      "p": 0.007653199364886469,
+      "utility_acc": -2.611007476344204
+    },
+    {
+      "owner_seed": 610,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.04936895394323533,
+      "p": 0.013628665343655666,
+      "utility_acc": -3.084293597715192
+    },
+    {
+      "owner_seed": 611,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.17020259023707118,
+      "p": 9.08849504212316e-15,
+      "utility_acc": -0.07501984332455552
+    },
+    {
+      "owner_seed": 611,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.09988853053793323,
+      "p": 3.8106501327809603e-06,
+      "utility_acc": -0.6200243627179534
+    },
+    {
+      "owner_seed": 611,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.06189260488343614,
+      "p": 0.0028127633552678913,
+      "utility_acc": -1.83645976949367
+    },
+    {
+      "owner_seed": 611,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.04009657634733281,
+      "p": 0.03650459051085119,
+      "utility_acc": -2.6297130899544765
+    },
+    {
+      "owner_seed": 611,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.03202513310520901,
+      "p": 0.0761178092737502,
+      "utility_acc": -3.104396961607009
+    },
+    {
+      "owner_seed": 612,
+      "variant": "merge_tofu_otherfacts_lambda0.75",
+      "rho": 0.15131453790584257,
+      "p": 5.1602370600622104e-12,
+      "utility_acc": -0.08112816019119712
+    },
+    {
+      "owner_seed": 612,
+      "variant": "merge_tofu_otherfacts_lambda0.5",
+      "rho": 0.08460892586105716,
+      "p": 7.585459907139423e-05,
+      "utility_acc": -0.6318266380218683
+    },
+    {
+      "owner_seed": 612,
+      "variant": "merge_tofu_otherfacts_lambda0.25",
+      "rho": 0.035929730707889906,
+      "p": 0.054099559095018804,
+      "utility_acc": -1.858715991917322
+    },
+    {
+      "owner_seed": 612,
+      "variant": "merge_tofu_otherfacts_lambda0.1",
+      "rho": 0.024479872697313637,
+      "p": 0.13692207524961278,
+      "utility_acc": -2.664866729202601
+    },
+    {
+      "owner_seed": 612,
+      "variant": "merge_tofu_otherfacts_lambda0.0",
+      "rho": 0.01903670931169762,
+      "p": 0.19741456963139853,
+      "utility_acc": -3.1456840697453754
+    }
+  ]
+}

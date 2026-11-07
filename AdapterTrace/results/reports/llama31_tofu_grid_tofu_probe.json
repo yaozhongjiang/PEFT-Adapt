@@ -1,0 +1,851 @@
+{
+  "summary": {
+    "knowledge_probe": {
+      "dolly": {
+        "n": 40,
+        "rate_at_0.05": 0.05,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.44565217391304346,
+        "median_gain_A": 17.601016566097734,
+        "median_z": 0.3910275436278493,
+        "secondary_A_minus_B_rate_at_0.05": 1.0
+      },
+      "grid": {
+        "n": 20,
+        "rate_at_0.05": 1.0,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.02127659574468085,
+        "median_gain_A": 82.73110405122341,
+        "median_z": 5.462197042887575,
+        "secondary_A_minus_B_rate_at_0.05": 1.0
+      },
+      "otherfacts": {
+        "n": 6,
+        "rate_at_0.05": 0.0,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.9456521739130435,
+        "median_gain_A": -20.218212114450523,
+        "median_z": -2.8065130615864655,
+        "secondary_A_minus_B_rate_at_0.05": 0.0
+      },
+      "student_otherdata": {
+        "n": 6,
+        "rate_at_0.05": 0.0,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.8723404255319149,
+        "median_gain_A": -3.433820556891151,
+        "median_z": -1.253185598546846,
+        "secondary_A_minus_B_rate_at_0.05": 1.0
+      },
+      "student_ownerprompts": {
+        "n": 6,
+        "rate_at_0.05": 1.0,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.02127659574468085,
+        "median_gain_A": 79.4695157765949,
+        "median_z": 5.208000647050611,
+        "secondary_A_minus_B_rate_at_0.05": 1.0
+      }
+    },
+    "order_test": {
+      "dolly/independent": {
+        "n": 800,
+        "rate_at_0.05": 0.15,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.13594975795687128,
+        "ks_uniform_p": 1.2006533662663692e-169
+      },
+      "otherfacts/independent": {
+        "n": 120,
+        "rate_at_0.05": 0.10833333333333334,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.2877603800998997,
+        "ks_uniform_p": 5.342829934606031e-10
+      },
+      "student_otherdata/derived": {
+        "n": 6,
+        "rate_at_0.05": 0.8333333333333334,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.03931571957139828
+      },
+      "student_otherdata/independent": {
+        "n": 76,
+        "rate_at_0.05": 0.07894736842105263,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.22986249461084296,
+        "ks_uniform_p": 1.278928387135296e-09
+      },
+      "student_otherdata/shares_order_with_teacher": {
+        "n": 38,
+        "rate_at_0.05": 0.07894736842105263,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.1756355499838407
+      },
+      "student_ownerprompts/derived": {
+        "n": 6,
+        "rate_at_0.05": 0.6666666666666666,
+        "rate_at_0.001": 0.16666666666666666,
+        "median_p": 0.02618950233964273
+      },
+      "student_ownerprompts/independent": {
+        "n": 76,
+        "rate_at_0.05": 0.013157894736842105,
+        "rate_at_0.001": 0.0,
+        "median_p": 0.6520203762520473,
+        "ks_uniform_p": 0.011591062531652282
+      },
+      "student_ownerprompts/shares_order_with_teacher": {
+        "n": 38,
+        "rate_at_0.05": 0.42105263157894735,
+        "rate_at_0.001": 0.02631578947368421,
+        "median_p": 0.10540909295773765
+      }
+    },
+    "layered": {
+      "dolly/independent": {
+        "n": 800,
+        "flag_rate_alpha_0.05": 0.17125
+      },
+      "otherfacts/independent": {
+        "n": 120,
+        "flag_rate_alpha_0.05": 0.05
+      },
+      "student_otherdata/derived": {
+        "n": 6,
+        "flag_rate_alpha_0.05": 0.16666666666666666
+      },
+      "student_otherdata/independent": {
+        "n": 76,
+        "flag_rate_alpha_0.05": 0.039473684210526314
+      },
+      "student_otherdata/shares_order_with_teacher": {
+        "n": 38,
+        "flag_rate_alpha_0.05": 0.0
+      },
+      "student_ownerprompts/derived": {
+        "n": 6,
+        "flag_rate_alpha_0.05": 1.0
+      },
+      "student_ownerprompts/independent": {
+        "n": 76,
+        "flag_rate_alpha_0.05": 1.0
+      },
+      "student_ownerprompts/shares_order_with_teacher": {
+        "n": 38,
+        "flag_rate_alpha_0.05": 1.0
+      }
+    },
+    "order_test_synthetic_owner_calibration": {
+      "worlds": 20,
+      "mean_fpr_at_0.05": 0.09385869565217392,
+      "fpr_5th_95th_percentile": [
+        0.04646739130434783,
+        0.19494565217391308
+      ]
+    }
+  },
+  "knowledge_rows": [
+    {
+      "model": "grid_s601",
+      "group": "grid",
+      "knowledge_gain_A": 82.7439140079935,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.463195404595921,
+      "secondary_A_minus_B_T": 107.25836066943415,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s602",
+      "group": "grid",
+      "knowledge_gain_A": 82.7023650141355,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.459957226260687,
+      "secondary_A_minus_B_T": 107.55855350243637,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s603",
+      "group": "grid",
+      "knowledge_gain_A": 82.7658707135544,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.4649066308293035,
+      "secondary_A_minus_B_T": 108.66172605343452,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s604",
+      "group": "grid",
+      "knowledge_gain_A": 82.71356952114738,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.460830465020376,
+      "secondary_A_minus_B_T": 109.62429812814071,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s605",
+      "group": "grid",
+      "knowledge_gain_A": 82.69716625577048,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.459552053833041,
+      "secondary_A_minus_B_T": 108.89900116859214,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s606",
+      "group": "grid",
+      "knowledge_gain_A": 82.71281021084299,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.460771287121007,
+      "secondary_A_minus_B_T": 110.43576125318035,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s607",
+      "group": "grid",
+      "knowledge_gain_A": 82.71471979898229,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.460920113515288,
+      "secondary_A_minus_B_T": 108.29025899833968,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s608",
+      "group": "grid",
+      "knowledge_gain_A": 82.75116940594071,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.463760864075553,
+      "secondary_A_minus_B_T": 106.50362899519111,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s609",
+      "group": "grid",
+      "knowledge_gain_A": 82.76025564872121,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.464469012980941,
+      "secondary_A_minus_B_T": 108.3071549247319,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s610",
+      "group": "grid",
+      "knowledge_gain_A": 82.73230461911284,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.462290610807481,
+      "secondary_A_minus_B_T": 109.31802832627841,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s611",
+      "group": "grid",
+      "knowledge_gain_A": 82.75756085129491,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.4642589902142396,
+      "secondary_A_minus_B_T": 106.46388823296306,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s612",
+      "group": "grid",
+      "knowledge_gain_A": 82.69771133082284,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.459594535011566,
+      "secondary_A_minus_B_T": 108.49995426191502,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s613",
+      "group": "grid",
+      "knowledge_gain_A": 82.65406781318161,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.456193117066712,
+      "secondary_A_minus_B_T": 108.07772675433785,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s614",
+      "group": "grid",
+      "knowledge_gain_A": 82.7408943822392,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.462960065883954,
+      "secondary_A_minus_B_T": 108.72828415537708,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s615",
+      "group": "grid",
+      "knowledge_gain_A": 82.74759181188536,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.463482039331881,
+      "secondary_A_minus_B_T": 107.34836429435505,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s616",
+      "group": "grid",
+      "knowledge_gain_A": 82.729903483334,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.462103474967669,
+      "secondary_A_minus_B_T": 109.15402150551509,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s617",
+      "group": "grid",
+      "knowledge_gain_A": 82.75418484921579,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.463995876820214,
+      "secondary_A_minus_B_T": 109.17654225635356,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s618",
+      "group": "grid",
+      "knowledge_gain_A": 82.72671744930541,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.461855166996555,
+      "secondary_A_minus_B_T": 108.10664439947328,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s619",
+      "group": "grid",
+      "knowledge_gain_A": 82.74449141052389,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.4632404052611845,
+      "secondary_A_minus_B_T": 105.52737444941535,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "grid_s620",
+      "group": "grid",
+      "knowledge_gain_A": 82.68495371766744,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.458600252775267,
+      "secondary_A_minus_B_T": 106.69225967249255,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "otherfacts_s651",
+      "group": "otherfacts",
+      "knowledge_gain_A": -20.20588735074829,
+      "knowledge_p": 0.9347826086956522,
+      "knowledge_z": -2.8052762382577763,
+      "secondary_A_minus_B_T": -107.26859545057641,
+      "secondary_A_minus_B_p_perm": 1.0
+    },
+    {
+      "model": "otherfacts_s652",
+      "group": "otherfacts",
+      "knowledge_gain_A": -20.990297492862215,
+      "knowledge_p": 0.9782608695652174,
+      "knowledge_z": -2.8844790497636135,
+      "secondary_A_minus_B_T": -108.06122783625577,
+      "secondary_A_minus_B_p_perm": 1.0
+    },
+    {
+      "model": "otherfacts_s653",
+      "group": "otherfacts",
+      "knowledge_gain_A": -17.187867253804114,
+      "knowledge_p": 0.8913043478260869,
+      "knowledge_z": -2.509369156188503,
+      "secondary_A_minus_B_T": -104.18369087821836,
+      "secondary_A_minus_B_p_perm": 1.0
+    },
+    {
+      "model": "otherfacts_s654",
+      "group": "otherfacts",
+      "knowledge_gain_A": -19.779651598406957,
+      "knowledge_p": 0.9130434782608695,
+      "knowledge_z": -2.7626552045061117,
+      "secondary_A_minus_B_T": -106.84753717909823,
+      "secondary_A_minus_B_p_perm": 1.0
+    },
+    {
+      "model": "otherfacts_s655",
+      "group": "otherfacts",
+      "knowledge_gain_A": -20.23053687815275,
+      "knowledge_p": 0.9565217391304348,
+      "knowledge_z": -2.8077498849151543,
+      "secondary_A_minus_B_T": -107.25904030391712,
+      "secondary_A_minus_B_p_perm": 1.0
+    },
+    {
+      "model": "otherfacts_s656",
+      "group": "otherfacts",
+      "knowledge_gain_A": -22.141607772204793,
+      "knowledge_p": 1.0,
+      "knowledge_z": -3.0026100888115637,
+      "secondary_A_minus_B_T": -109.23752050160581,
+      "secondary_A_minus_B_p_perm": 1.0
+    },
+    {
+      "model": "student_otherdata_o601",
+      "group": "student_otherdata",
+      "knowledge_gain_A": -1.0192977778727654,
+      "knowledge_p": 0.8723404255319149,
+      "knowledge_z": -1.0650064243490764,
+      "secondary_A_minus_B_T": 41.681836424874135,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_otherdata_o602",
+      "group": "student_otherdata",
+      "knowledge_gain_A": -3.1687366859614268,
+      "knowledge_p": 0.8723404255319149,
+      "knowledge_z": -1.2325259202211012,
+      "secondary_A_minus_B_T": 43.28241608215156,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_otherdata_o603",
+      "group": "student_otherdata",
+      "knowledge_gain_A": -0.008435249613103223,
+      "knowledge_p": 0.8723404255319149,
+      "knowledge_z": -0.9862234542945522,
+      "secondary_A_minus_B_T": 40.89534425529101,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_otherdata_o604",
+      "group": "student_otherdata",
+      "knowledge_gain_A": -3.698904427820875,
+      "knowledge_p": 0.8723404255319149,
+      "knowledge_z": -1.273845276872591,
+      "secondary_A_minus_B_T": 41.34435973955269,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_otherdata_o605",
+      "group": "student_otherdata",
+      "knowledge_gain_A": -5.338438086945098,
+      "knowledge_p": 0.8723404255319149,
+      "knowledge_z": -1.4016246015178004,
+      "secondary_A_minus_B_T": 43.08103628598611,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_otherdata_o606",
+      "group": "student_otherdata",
+      "knowledge_gain_A": -3.708185041884979,
+      "knowledge_p": 0.8723404255319149,
+      "knowledge_z": -1.2745685743729531,
+      "secondary_A_minus_B_T": 43.12535323323218,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_ownerprompts_o601",
+      "group": "student_ownerprompts",
+      "knowledge_gain_A": 79.86442391617078,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.238778359414782,
+      "secondary_A_minus_B_T": 105.3314657554123,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_ownerprompts_o602",
+      "group": "student_ownerprompts",
+      "knowledge_gain_A": 79.32743212988106,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.196927161416946,
+      "secondary_A_minus_B_T": 106.31749726566179,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_ownerprompts_o603",
+      "group": "student_ownerprompts",
+      "knowledge_gain_A": 79.84501371394849,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.237265598443156,
+      "secondary_A_minus_B_T": 105.29465632250725,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_ownerprompts_o604",
+      "group": "student_ownerprompts",
+      "knowledge_gain_A": 79.28507835055515,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.193626261012542,
+      "secondary_A_minus_B_T": 105.41068850505725,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_ownerprompts_o605",
+      "group": "student_ownerprompts",
+      "knowledge_gain_A": 79.4030755742538,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.202822537935748,
+      "secondary_A_minus_B_T": 105.35769602495165,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "student_ownerprompts_o606",
+      "group": "student_ownerprompts",
+      "knowledge_gain_A": 79.53595597893599,
+      "knowledge_p": 0.02127659574468085,
+      "knowledge_z": 5.213178756165474,
+      "secondary_A_minus_B_T": 103.94349590276408,
+      "secondary_A_minus_B_p_perm": 9.99990000099999e-06
+    },
+    {
+      "model": "dolly_s401",
+      "group": "dolly",
+      "knowledge_gain_A": 17.533826269984246,
+      "knowledge_p": 0.5434782608695652,
+      "knowledge_z": 0.385707770106682,
+      "secondary_A_minus_B_T": 0.8579780126810057,
+      "secondary_A_minus_B_p_perm": 0.009589904100958991
+    },
+    {
+      "model": "dolly_s402",
+      "group": "dolly",
+      "knowledge_gain_A": 17.72219295346737,
+      "knowledge_p": 0.13043478260869565,
+      "knowledge_z": 0.4006235180461009,
+      "secondary_A_minus_B_T": 0.8569886041879684,
+      "secondary_A_minus_B_p_perm": 0.00894991050089499
+    },
+    {
+      "model": "dolly_s403",
+      "group": "dolly",
+      "knowledge_gain_A": 17.543072214245797,
+      "knowledge_p": 0.5,
+      "knowledge_z": 0.3864397719618226,
+      "secondary_A_minus_B_T": 0.8438680608272513,
+      "secondary_A_minus_B_p_perm": 0.009459905400945991
+    },
+    {
+      "model": "dolly_s404",
+      "group": "dolly",
+      "knowledge_gain_A": 17.77772827208042,
+      "knowledge_p": 0.08695652173913043,
+      "knowledge_z": 0.4050221833460342,
+      "secondary_A_minus_B_T": 0.8610418674945812,
+      "secondary_A_minus_B_p_perm": 0.008859911400885991
+    },
+    {
+      "model": "dolly_s405",
+      "group": "dolly",
+      "knowledge_gain_A": 17.412883037567138,
+      "knowledge_p": 0.6956521739130435,
+      "knowledge_z": 0.37613394402550254,
+      "secondary_A_minus_B_T": 0.8574668523073221,
+      "secondary_A_minus_B_p_perm": 0.00937990620093799
+    },
+    {
+      "model": "dolly_s406",
+      "group": "dolly",
+      "knowledge_gain_A": 17.604297629117966,
+      "knowledge_p": 0.41304347826086957,
+      "knowledge_z": 0.3912873396572405,
+      "secondary_A_minus_B_T": 0.8374422250986129,
+      "secondary_A_minus_B_p_perm": 0.01018989810101899
+    },
+    {
+      "model": "dolly_s407",
+      "group": "dolly",
+      "knowledge_gain_A": 17.487716061830522,
+      "knowledge_p": 0.6086956521739131,
+      "knowledge_z": 0.38205742728254033,
+      "secondary_A_minus_B_T": 0.883254563808439,
+      "secondary_A_minus_B_p_perm": 0.0066899331006689934
+    },
+    {
+      "model": "dolly_s408",
+      "group": "dolly",
+      "knowledge_gain_A": 17.44016484105587,
+      "knowledge_p": 0.6521739130434783,
+      "knowledge_z": 0.3782933602397333,
+      "secondary_A_minus_B_T": 0.7994537999629934,
+      "secondary_A_minus_B_p_perm": 0.012319876801231987
+    },
+    {
+      "model": "dolly_s409",
+      "group": "dolly",
+      "knowledge_gain_A": 17.527326619267463,
+      "knowledge_p": 0.5652173913043478,
+      "knowledge_z": 0.3851932006700472,
+      "secondary_A_minus_B_T": 0.7650269278287958,
+      "secondary_A_minus_B_p_perm": 0.016159838401615983
+    },
+    {
+      "model": "dolly_s410",
+      "group": "dolly",
+      "knowledge_gain_A": 17.601274280428886,
+      "knowledge_p": 0.43478260869565216,
+      "knowledge_z": 0.39104794949473437,
+      "secondary_A_minus_B_T": 0.8599346020221681,
+      "secondary_A_minus_B_p_perm": 0.008359916400835991
+    },
+    {
+      "model": "dolly_s411",
+      "group": "dolly",
+      "knowledge_gain_A": 17.696034913539886,
+      "knowledge_p": 0.15217391304347827,
+      "knowledge_z": 0.39855185382520786,
+      "secondary_A_minus_B_T": 0.904222432017324,
+      "secondary_A_minus_B_p_perm": 0.0066899331006689934
+    },
+    {
+      "model": "dolly_s412",
+      "group": "dolly",
+      "knowledge_gain_A": 17.41113237249851,
+      "knowledge_p": 0.7391304347826086,
+      "knowledge_z": 0.3759953789297917,
+      "secondary_A_minus_B_T": 0.8369392788410188,
+      "secondary_A_minus_B_p_perm": 0.00984990150098499
+    },
+    {
+      "model": "dolly_s413",
+      "group": "dolly",
+      "knowledge_gain_A": 17.524053303837775,
+      "knowledge_p": 0.5869565217391305,
+      "knowledge_z": 0.3849340588391399,
+      "secondary_A_minus_B_T": 0.8556360909938867,
+      "secondary_A_minus_B_p_perm": 0.00855991440085599
+    },
+    {
+      "model": "dolly_s414",
+      "group": "dolly",
+      "knowledge_gain_A": 17.660815639019013,
+      "knowledge_p": 0.2391304347826087,
+      "knowledge_z": 0.39576273748824997,
+      "secondary_A_minus_B_T": 0.8441494510173833,
+      "secondary_A_minus_B_p_perm": 0.00890991090089099
+    },
+    {
+      "model": "dolly_s415",
+      "group": "dolly",
+      "knowledge_gain_A": 17.600758851766585,
+      "knowledge_p": 0.45652173913043476,
+      "knowledge_z": 0.3910071377609642,
+      "secondary_A_minus_B_T": 0.8549350847005854,
+      "secondary_A_minus_B_p_perm": 0.009179908200917991
+    },
+    {
+      "model": "dolly_s416",
+      "group": "dolly",
+      "knowledge_gain_A": 17.411712988853456,
+      "knowledge_p": 0.717391304347826,
+      "knowledge_z": 0.37604133464632866,
+      "secondary_A_minus_B_T": 0.877385958313937,
+      "secondary_A_minus_B_p_perm": 0.0072599274007259925
+    },
+    {
+      "model": "dolly_s417",
+      "group": "dolly",
+      "knowledge_gain_A": 17.194001583099364,
+      "knowledge_p": 0.8695652173913043,
+      "knowledge_z": 0.3588131472596076,
+      "secondary_A_minus_B_T": 0.8846245847940395,
+      "secondary_A_minus_B_p_perm": 0.006619933800661993
+    },
+    {
+      "model": "dolly_s418",
+      "group": "dolly",
+      "knowledge_gain_A": 17.643617111206055,
+      "knowledge_p": 0.2826086956521739,
+      "knowledge_z": 0.39440081071625754,
+      "secondary_A_minus_B_T": 0.8206311432123172,
+      "secondary_A_minus_B_p_perm": 0.01104988950110499
+    },
+    {
+      "model": "dolly_s419",
+      "group": "dolly",
+      "knowledge_gain_A": 17.675271947026253,
+      "knowledge_p": 0.17391304347826086,
+      "knowledge_z": 0.3969075495411713,
+      "secondary_A_minus_B_T": 0.9135815858840957,
+      "secondary_A_minus_B_p_perm": 0.005929940700592994
+    },
+    {
+      "model": "dolly_s420",
+      "group": "dolly",
+      "knowledge_gain_A": 17.64669658124447,
+      "knowledge_p": 0.2608695652173913,
+      "knowledge_z": 0.39464466595705855,
+      "secondary_A_minus_B_T": 0.9040999733209603,
+      "secondary_A_minus_B_p_perm": 0.0058499415005849945
+    },
+    {
+      "model": "dolly_s421",
+      "group": "dolly",
+      "knowledge_gain_A": 17.617466336488725,
+      "knowledge_p": 0.34782608695652173,
+      "knowledge_z": 0.39233006146070615,
+      "secondary_A_minus_B_T": 0.847270022869111,
+      "secondary_A_minus_B_p_perm": 0.008609913900860992
+    },
+    {
+      "model": "dolly_s422",
+      "group": "dolly",
+      "knowledge_gain_A": 17.80458724117279,
+      "knowledge_p": 0.06521739130434782,
+      "knowledge_z": 0.4071497298572395,
+      "secondary_A_minus_B_T": 0.906223229408269,
+      "secondary_A_minus_B_p_perm": 0.006289937100628994
+    },
+    {
+      "model": "dolly_s423",
+      "group": "dolly",
+      "knowledge_gain_A": 17.212712213754653,
+      "knowledge_p": 0.8478260869565217,
+      "knowledge_z": 0.360293495246226,
+      "secondary_A_minus_B_T": 0.7944009313583322,
+      "secondary_A_minus_B_p_perm": 0.013519864801351986
+    },
+    {
+      "model": "dolly_s424",
+      "group": "dolly",
+      "knowledge_gain_A": 17.851878388881683,
+      "knowledge_p": 0.021739130434782608,
+      "knowledge_z": 0.41089604350138687,
+      "secondary_A_minus_B_T": 0.8799084054231656,
+      "secondary_A_minus_B_p_perm": 0.0075499245007549926
+    },
+    {
+      "model": "dolly_s425",
+      "group": "dolly",
+      "knowledge_gain_A": 17.609999841451646,
+      "knowledge_p": 0.391304347826087,
+      "knowledge_z": 0.39173884755298854,
+      "secondary_A_minus_B_T": 0.8513785569667789,
+      "secondary_A_minus_B_p_perm": 0.00956990430095699
+    },
+    {
+      "model": "dolly_s426",
+      "group": "dolly",
+      "knowledge_gain_A": 17.664306131243706,
+      "knowledge_p": 0.21739130434782608,
+      "knowledge_z": 0.39603915051654454,
+      "secondary_A_minus_B_T": 0.8254288520812985,
+      "secondary_A_minus_B_p_perm": 0.01104988950110499
+    },
+    {
+      "model": "dolly_s427",
+      "group": "dolly",
+      "knowledge_gain_A": 17.821034943938255,
+      "knowledge_p": 0.043478260869565216,
+      "knowledge_z": 0.40845264194848746,
+      "secondary_A_minus_B_T": 0.8263285487890251,
+      "secondary_A_minus_B_p_perm": 0.01117988820111799
+    },
+    {
+      "model": "dolly_s428",
+      "group": "dolly",
+      "knowledge_gain_A": 17.54026382803917,
+      "knowledge_p": 0.5217391304347826,
+      "knowledge_z": 0.3862174304353907,
+      "secondary_A_minus_B_T": 0.8527709023952426,
+      "secondary_A_minus_B_p_perm": 0.008579914200857991
+    },
+    {
+      "model": "dolly_s429",
+      "group": "dolly",
+      "knowledge_gain_A": 17.41828568291664,
+      "knowledge_p": 0.6739130434782609,
+      "knowledge_z": 0.37656156629599125,
+      "secondary_A_minus_B_T": 0.8803726630210846,
+      "secondary_A_minus_B_p_perm": 0.007859921400785992
+    },
+    {
+      "model": "dolly_s430",
+      "group": "dolly",
+      "knowledge_gain_A": 17.630836587786675,
+      "knowledge_p": 0.32608695652173914,
+      "knowledge_z": 0.3933887708831646,
+      "secondary_A_minus_B_T": 0.8626668124198886,
+      "secondary_A_minus_B_p_perm": 0.007789922100778992
+    },
+    {
+      "model": "dolly_s431",
+      "group": "dolly",
+      "knowledge_gain_A": 17.6393464782238,
+      "knowledge_p": 0.30434782608695654,
+      "knowledge_z": 0.39406263295295807,
+      "secondary_A_minus_B_T": 0.8598179783821074,
+      "secondary_A_minus_B_p_perm": 0.007899921000789992
+    },
+    {
+      "model": "dolly_s432",
+      "group": "dolly",
+      "knowledge_gain_A": 17.666293240070342,
+      "knowledge_p": 0.1956521739130435,
+      "knowledge_z": 0.39619651110312265,
+      "secondary_A_minus_B_T": 0.7840472284555382,
+      "secondary_A_minus_B_p_perm": 0.014589854101458985
+    },
+    {
+      "model": "dolly_s433",
+      "group": "dolly",
+      "knowledge_gain_A": 17.73447787106037,
+      "knowledge_p": 0.10869565217391304,
+      "knowledge_z": 0.4015964982460932,
+      "secondary_A_minus_B_T": 0.8813267685174928,
+      "secondary_A_minus_B_p_perm": 0.007739922600773992
+    },
+    {
+      "model": "dolly_s434",
+      "group": "dolly",
+      "knowledge_gain_A": 17.548615736603736,
+      "knowledge_p": 0.4782608695652174,
+      "knowledge_z": 0.38687865949469635,
+      "secondary_A_minus_B_T": 0.8529713040590288,
+      "secondary_A_minus_B_p_perm": 0.008529914700852992
+    },
+    {
+      "model": "dolly_s435",
+      "group": "dolly",
+      "knowledge_gain_A": 17.283518495321275,
+      "knowledge_p": 0.8260869565217391,
+      "knowledge_z": 0.3658960250202017,
+      "secondary_A_minus_B_T": 0.8771942702531845,
+      "secondary_A_minus_B_p_perm": 0.007829921700782993
+    },
+    {
+      "model": "dolly_s436",
+      "group": "dolly",
+      "knowledge_gain_A": 17.337866878271104,
+      "knowledge_p": 0.782608695652174,
+      "knowledge_z": 0.37019684513135054,
+      "secondary_A_minus_B_T": 0.8400269281864112,
+      "secondary_A_minus_B_p_perm": 0.00894991050089499
+    },
+    {
+      "model": "dolly_s437",
+      "group": "dolly",
+      "knowledge_gain_A": 17.32952782726288,
+      "knowledge_p": 0.8043478260869565,
+      "knowledge_z": 0.3695369108979948,
+      "secondary_A_minus_B_T": 0.8540071029663139,
+      "secondary_A_minus_B_p_perm": 0.008579914200857991
+    },
+    {
+      "model": "dolly_s438",
+      "group": "dolly",
+      "knowledge_gain_A": 17.358278615236284,
+      "knowledge_p": 0.7608695652173914,
+      "knowledge_z": 0.3718122305688675,
+      "secondary_A_minus_B_T": 0.8657876669168445,
+      "secondary_A_minus_B_p_perm": 0.00868991310086899
+    },
+    {
+      "model": "dolly_s439",
+      "group": "dolly",
+      "knowledge_gain_A": 17.610381338715552,
+      "knowledge_p": 0.3695652173913043,
+      "knowledge_z": 0.3917690551455394,
+      "secondary_A_minus_B_T": 0.9729840629100828,
+      "secondary_A_minus_B_p_perm": 0.003939960600393996
+    },
+    {
+      "model": "dolly_s440",
+      "group": "dolly",
+      "knowledge_gain_A": 17.447282481193543,
+      "knowledge_p": 0.6304347826086957,
+      "knowledge_z": 0.3788567567578904,
+      "secondary_A_minus_B_T": 0.8464366557598098,
+      "secondary_A_minus_B_p_perm": 0.009049909500904991
+    }
+  ]
+}
